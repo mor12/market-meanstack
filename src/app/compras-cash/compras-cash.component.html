@@ -1,0 +1,198 @@
+<ngx-smart-modal #showDetailCompra [identifier]="'showDetailCompra'" [customClass]="'create-modal nsm-dialog-animation-btt'"
+  [dismissable]="false">
+
+  <div class="class-body animated flipInX" style="margin-top: 40px;" >
+    <div class="row">
+      <div class="col-md-12">
+        <h2>ESTE PAGO SE REALIZARA EN EFECTIVO</h2>
+      </div>
+    </div>
+     <div class="row">
+       <div class="col-md-8">
+         <div   *ngIf="cart.length > 0">
+           <table class="table">
+             <thead class=" text-primary">
+               <th>
+ 
+               </th>
+               <th>
+                 Precio
+               </th>
+               <th>
+                 Quitar
+               </th>
+             </thead>
+             <tbody>
+               <tr *ngFor="let item of cart; let i = index">
+                 <td style="text-align: center">
+                   <a target="_blank" [href]="getImage(item.image_path)" title="Ver imagen">
+                     <img [src]="getImage(item.image_path)" alt="{{item.name}}" width="60">
+                   </a>
+                 </td>
+                 <td>
+                   {{item.price | currency}}
+                 </td>
+                 <td class="td-actions ">
+ 
+                   <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral"
+                     (click)="removeFromCart(i)" data-original-title="Remove">
+                     <i class="now-ui-icons ui-1_simple-remove"></i>
+                   </button>
+                 </td>
+               </tr>
+               <tr>
+                 <td style="text-align: center">
+                   Total
+                 </td>
+                 <td>
+                   {{total | currency}}
+                 </td>
+                 <td>
+ 
+                 </td>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+       </div>
+
+ 
+     </div>
+     <div class="row">
+       <div class="col-md-12" style="text-align: center">
+         <button (click)="completarPago()" class="btn btn-info btn-round">Comlpetar Pago</button>
+       </div>
+     </div>
+   </div>
+</ngx-smart-modal>
+
+
+
+
+<div class="panel-header">
+  <div class="header text-center animated pulse">
+    <!-- <h2 class="title">Compras en cash</h2>
+    <p class="category">Selecciona los productos para agregar a la compra
+    </p> -->
+  </div>
+</div>
+<div class="main-content">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="card animated Up">
+        <!-- <div class="card-header ">
+          Listado de productos
+        </div> -->
+        <div class="card-body all-icons" style="
+        width: 100%;
+        height: 800px;
+        overflow-y: scroll;
+        position: relative;
+    ">
+            <div class="row col-md-12">
+                <div class="col-md-6 pr-1">
+                    <div class="form-group">
+                      <label>Buscar</label>
+                      <input type="text" class="form-control" placeholder="Buscar" [(ngModel)]="search" (ngModelChange)="searchFilter()">
+                    </div>
+                  </div>
+            </div>
+          <div class="row">
+            <div class="col-md-12" style="
+            align-items: center;
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+        ">
+                <button *ngFor="let cat of categoryList" (click)="filter(cat._id)" class="btn btn-primary btn-round">{{cat?.name}}</button>
+                <button (click)="getALl()" class="btn btn-primary btn-round">Ver Todos</button>
+            </div>
+            <div class="font-icon-list col-lg-4 col-md-3 col-sm-4 col-xs-6 col-xs-6" *ngFor="let product of filtered_produc_list"
+             >
+              <div class="font-icon-detail" style="padding-top: 0px;padding-bottom: 0px;">
+                <img [src]="getImage(product.image_path)" alt="">
+                <div class="row">
+
+                  <div class="col-md-8" style="text-align: left;margin-top: 10px;margin-left: 0px;padding-left: 30px;">
+                    <p style="color: #02174c;font-size: 14px;margin-bottom: 5px;">{{product?.name}}</p>
+                    <p style="color: #02174c;font-size: 10px;margin-bottom: 5px;">{{product?.description}}</p>
+                    <p style="color: #f96332;font-size: 14px;"> ${{product?.price}} </p>
+                  </div>
+
+                  <div class="col-md-4" style="text-align: right;padding-right: 30px;">
+                    <button style="float: right;" class="btn btn-primary btn-round"  (click)="addToCart(product)">
+                      <i class="now-ui-icons ui-1_simple-add"></i>
+                    </button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card animated Up">
+        <div class="card-header " style="text-align: center">
+          <h5> Carrito </h5>
+        </div>
+        <div class="card-body">
+          <div class="animated bounceInRight" *ngIf="cart.length > 0">
+            <table class="table">
+              <thead class=" text-primary">
+                <th>
+
+                </th>
+                <th>
+                  Precio
+                </th>
+                <th>
+                  Quitar
+                </th>
+              </thead>
+              <tbody>
+                <tr class="animated bounceInRight" *ngFor="let item of cart; let i = index">
+                  <td style="text-align: center">
+                    <a target="_blank" [href]="getImage(item.image_path)" title="Ver imagen">
+                      <img [src]="getImage(item.image_path)" alt="{{item.name}}" width="60">
+                    </a>
+                  </td>
+                  <td>
+                    {{item.price | currency}}
+                  </td>
+                  <td class="td-actions ">
+
+                    <button type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral"
+                      (click)="removeFromCart(i)" data-original-title="Remove">
+                      <i class="now-ui-icons ui-1_simple-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">
+                    Total
+                  </td>
+                  <td>
+                    {{total | currency}}
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div>
+            <lottie-animation-view *ngIf="cart.length == 0" [options]="lottieConfigBag" [width]="300" [height]="250">
+            </lottie-animation-view>
+          </div>
+        </div>
+        <div class="card-footer" *ngIf="cart.length > 0">
+          <button (click)="limpiar()" class="btn btn-danger btn-round">Limpiar</button>
+          <button (click)="showDetail()" class="btn btn-info btn-round" style="float: right">Continuar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

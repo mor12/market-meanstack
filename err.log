@@ -1,0 +1,7 @@
+Error: ENOENT: no such file or directory, stat '/home/jescobar/red5g-market/dist/index.html'
+Error: ENOENT: no such file or directory, stat '/home/jescobar/red5g-market/dist/index.html'
+Error: ENOENT: no such file or directory, stat '/home/jescobar/red5g-market/dist/index.html'
+Error: ENOENT: no such file or directory, stat '/home/jescobar/red5g-market/dist/index.html'
+Error: ENOENT: no such file or directory, stat '/home/jescobar/red5g-market/dist/index.html'
+Error: ENOENT: no such file or directory, stat '/home/jescobar/red5g-market/dist/index.html'
+(node:21133) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.

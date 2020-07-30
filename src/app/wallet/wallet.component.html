@@ -1,0 +1,203 @@
+<ngx-smart-modal #createModal identifier="createModal" [customClass]="'create-modal nsm-dialog-animation-btt'" [dismissable]="false">
+<form (ngSubmit)="create()" [formGroup]="create_form" >
+  
+    <div class="card-body" style="
+    padding-bottom: 0px;
+  ">
+      <h5 class="title">Nuevo Registro</h5>
+    </div>
+    <div class="card-body">
+  
+        <div class="row">
+          <div class="col-md-6 pr-1">
+            <div class="form-group">
+              <label>Cantidad</label>
+              <input type="number" class="form-control" placeholder="Dinero" formControlName="quantity">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            <label>  Tipo  </label>
+            <div class="col-sm-12 checkbox-radios">
+              <div class="form-check form-check-radio">
+                <label class="form-check-label">
+                  <input formControlName="type" class="form-check-input" id="exampleRadios1" name="type" type="radio" value="entrada">
+                  <span class="form-check-sign"></span>
+                  Entrada
+                </label>
+              </div>
+              <div class="form-check form-check-radio">
+                <label class="form-check-label">
+                  <input formControlName="type" class="form-check-input" id="exampleRadios2" name="type" type="radio" value="salida">
+                  <span class="form-check-sign">
+                  </span> Salida
+                </label>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label>Motivo</label>
+              <textarea formControlName="reason" rows="4" cols="80" class="form-control" placeholder="Here can be your description" ></textarea>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="card-body">
+      <button type="submit" [disabled]="!create_form.valid" class="btn btn-info btn-round accept-button">Aceptar</button>
+    </div>
+  </form> 
+  
+  </ngx-smart-modal>
+  <ngx-smart-modal #editModal identifier="editModal" [customClass]="'create-modal nsm-dialog-animation-btt'" [dismissable]="false">
+    <!-- <form (ngSubmit)="update()" [formGroup]="edit_form" >
+  
+      <div class="card-body" style="
+      padding-bottom: 0px;
+    ">
+        <h5 class="title">Editar Categoria</h5>
+      </div>
+      <div class="card-body">
+    
+          <div class="row">
+            <div class="col-md-6 pr-1">
+              <div class="form-group">
+                <label>Nombre</label>
+                <input type="text" class="form-control" placeholder="Nombre" formControlName="name">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <label>Horario Disponible</label>
+              <div class="col-sm-12 checkbox-radios">
+                  <div class="form-check form-check-radio">
+                      <label class="form-check-label">
+                        <input formControlName="available_time" checked=""  class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="always">
+                        <span class="form-check-sign">
+                        </span> Siempre Disponible
+                      </label>
+                    </div>
+                <div class="form-check form-check-radio">
+                  <label class="form-check-label">
+                    <input formControlName="available_time" class="form-check-input" id="exampleRadios1" name="available_time" type="radio" value="morning">
+                    <span class="form-check-sign"></span>
+                    Mañana
+                  </label>
+                </div>
+                <div class="form-check form-check-radio">
+                  <label class="form-check-label">
+                    <input formControlName="available_time" class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="late">
+                    <span class="form-check-sign">
+                    </span> Tarde
+                  </label>
+                </div>
+                <div class="form-check form-check-radio">
+                  <label class="form-check-label">
+                    <input formControlName="available_time" class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="night">
+                    <span class="form-check-sign">
+                    </span> Noche
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label>Descripcion</label>
+                <textarea formControlName="description" rows="4" cols="80" class="form-control" placeholder="Here can be your description" ></textarea>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="card-body">
+        <button type="submit" [disabled]="!edit_form.valid" class="btn btn-info btn-round accept-button">Aceptar</button>
+      </div>
+    </form> -->
+  </ngx-smart-modal>
+  <div class="panel-header">
+    <div class="header text-center  animated pulse">
+      <h2 class="title">Registros</h2>
+      <p class="category">Saldo actual: <b>{{ saldo | currency }} </b> Agrega registros para las entradas y salidas de dinero de caja
+      </p>
+      <p>
+        <button (click)="ngxSmartModalService.getModal('createModal').open()" class="btn btn-primary btn-round">Nuevo</button>
+      </p>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="row">
+      <div class="col-md-12" *ngIf="wallet_list.length > 0">
+        <div class="card animated fadeInUp">
+          <div class="card-header">
+            <h4 class="card-title ">Listado de Registros</h4>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead class=" text-primary">
+                  <th>
+                    Tipo
+                  </th>
+                  <th>
+                    Cantidad
+                  </th>
+                  <th>
+                    Antes
+                  </th>
+                  <th>
+                    Despues
+                  </th>
+                  <th>
+                    Motivo
+                  </th>
+                  <th>
+                    Fecha
+                  </th>
+            
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of wallet_list">
+                    <td>
+                      {{item.type}}
+                    </td>
+                    <td>
+                      {{item.quantity}}
+                    </td>
+                    <td>
+                      {{item.after | currency}}
+                    </td>
+                    <td>
+                      {{item.before | currency}}
+                    </td>
+                    <td>
+                      {{item.reason}}
+                    </td>
+                    <td>
+                      {{item.createdAt | date}}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12" *ngIf="wallet_list.length == 0">
+        <div class="card animated fadeInUp">
+          <div class="card-header">
+            <h4 class="card-title "> No se encontraron Registros</h4>
+          </div>
+          <div class="card-body">
+            <lottie-animation-view [options]="lottieConfig" [width]="300" [height]="250">
+            </lottie-animation-view>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

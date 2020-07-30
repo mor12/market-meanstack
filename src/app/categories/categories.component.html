@@ -1,0 +1,212 @@
+<ngx-smart-modal #createModal identifier="createModal" [customClass]="'create-modal nsm-dialog-animation-btt'" [dismissable]="false">
+  <form (ngSubmit)="create()" [formGroup]="create_form" >
+
+  <div class="card-body" style="
+  padding-bottom: 0px;
+">
+    <h5 class="title">Nueva Categoria</h5>
+  </div>
+  <div class="card-body">
+
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control" placeholder="Nombre" formControlName="name">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <form (ngSubmit)="create()" [formGroup]="create_form">
+        <div class="form-group">
+          <label>Horario Disponible</label>
+          <div class="col-sm-12 checkbox-radios">
+              <div class="form-check form-check-radio">
+                  <label class="form-check-label">
+                    <input formControlName="available_time" checked=""  class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="always">
+                    <span class="form-check-sign">
+                    </span> Siempre Disponible
+                  </label>
+                </div>
+            <div class="form-check form-check-radio">
+              <label class="form-check-label">
+                <input formControlName="available_time" class="form-check-input" id="exampleRadios1" name="available_time" type="radio" value="morning">
+                <span class="form-check-sign"></span>
+                Mañana
+              </label>
+            </div>
+            <div class="form-check form-check-radio">
+              <label class="form-check-label">
+                <input formControlName="available_time" class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="late">
+                <span class="form-check-sign">
+                </span> Tarde
+              </label>
+            </div>
+            <div class="form-check form-check-radio">
+              <label class="form-check-label">
+                <input formControlName="available_time" class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="night">
+                <span class="form-check-sign">
+                </span> Noche
+              </label>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label>Descripcion</label>
+            <textarea formControlName="description" rows="4" cols="80" class="form-control" placeholder="Here can be your description" ></textarea>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="card-body">
+    <button type="submit" [disabled]="!create_form.valid" class="btn btn-info btn-round accept-button">Aceptar</button>
+  </div>
+</form>
+
+</ngx-smart-modal>
+<ngx-smart-modal #editModal identifier="editModal" [customClass]="'create-modal nsm-dialog-animation-btt'" [dismissable]="false">
+  <form (ngSubmit)="update()" [formGroup]="edit_form" >
+
+    <div class="card-body" style="
+    padding-bottom: 0px;
+  ">
+      <h5 class="title">Editar Categoria</h5>
+    </div>
+    <div class="card-body">
+  
+        <div class="row">
+          <div class="col-md-6 pr-1">
+            <div class="form-group">
+              <label>Nombre</label>
+              <input type="text" class="form-control" placeholder="Nombre" formControlName="name">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group">
+            <label>Horario Disponible</label>
+            <div class="col-sm-12 checkbox-radios">
+                <div class="form-check form-check-radio">
+                    <label class="form-check-label">
+                      <input formControlName="available_time" checked=""  class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="always">
+                      <span class="form-check-sign">
+                      </span> Siempre Disponible
+                    </label>
+                  </div>
+              <div class="form-check form-check-radio">
+                <label class="form-check-label">
+                  <input formControlName="available_time" class="form-check-input" id="exampleRadios1" name="available_time" type="radio" value="morning">
+                  <span class="form-check-sign"></span>
+                  Mañana
+                </label>
+              </div>
+              <div class="form-check form-check-radio">
+                <label class="form-check-label">
+                  <input formControlName="available_time" class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="late">
+                  <span class="form-check-sign">
+                  </span> Tarde
+                </label>
+              </div>
+              <div class="form-check form-check-radio">
+                <label class="form-check-label">
+                  <input formControlName="available_time" class="form-check-input" id="exampleRadios2" name="available_time" type="radio" value="night">
+                  <span class="form-check-sign">
+                  </span> Noche
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label>Descripcion</label>
+              <textarea formControlName="description" rows="4" cols="80" class="form-control" placeholder="Here can be your description" ></textarea>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="card-body">
+      <button type="submit" [disabled]="!edit_form.valid" class="btn btn-info btn-round accept-button">Aceptar</button>
+    </div>
+  </form>
+</ngx-smart-modal>
+<div class="panel-header">
+  <div class="header text-center  animated pulse">
+    <h2 class="title">Categorias</h2>
+    <p class="category">Crea categorias para agrupar los diferentes tipos de productos o combos
+    </p>
+    <p>
+      <button (click)="ngxSmartModalService.getModal('createModal').open()" class="btn btn-primary btn-round">Nuevo</button>
+    </p>
+  </div>
+</div>
+<div class="main-content">
+  <div class="row">
+    <div class="col-md-12" *ngIf="category_list.length > 0">
+      <div class="card animated fadeInUp">
+        <div class="card-header">
+          <h4 class="card-title "> Listado de categorias</h4>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table">
+              <thead class=" text-primary">
+                <th>
+                  Nombre
+                </th>
+                <th>
+                  Horario Disponible
+                </th>
+                <th>
+                  Descripccion
+                </th>
+                <th>
+                  Opciones
+                </th>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of category_list">
+                  <td>
+                    {{item.name}}
+                  </td>
+                  <td>
+                    {{item.available_time}}
+                  </td>
+                  <td>
+                    {{item.description}}
+                  </td>
+                  <td class="td-actions ">
+                    <button (click)="editar(item)" type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral"
+                      data-original-title="Edit Task">
+                      <i class="now-ui-icons ui-2_settings-90"></i>
+                    </button>
+                    <button (click)="delete(item._id)" type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral"
+                      data-original-title="Remove">
+                      <i class="now-ui-icons ui-1_simple-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12" *ngIf="category_list.length == 0">
+      <div class="card animated fadeInUp">
+        <div class="card-header">
+          <h4 class="card-title "> No se encontraron categorias</h4>
+        </div>
+        <div class="card-body">
+          <lottie-animation-view [options]="lottieConfig" [width]="300" [height]="250">
+          </lottie-animation-view>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

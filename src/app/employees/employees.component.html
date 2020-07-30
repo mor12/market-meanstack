@@ -1,0 +1,284 @@
+<ngx-smart-modal #erpModal identifier="erpModal" [customClass]="'create-modal nsm-dialog-animation-btt'"
+  [dismissable]="false">
+
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6 pr-1">
+        <div class="form-group">
+          <label>Codigo Erp</label>
+          <input type="text" class="form-control" placeholder="codigo erp" [(ngModel)]="code_erp_edit">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-body">
+    <button type="button" class="btn btn-info btn-round accept-button" (click)="saveErp()">Aceptar</button>
+  </div>
+
+</ngx-smart-modal>
+
+<ngx-smart-modal #createModal identifier="createModal" [customClass]="'create-modal nsm-dialog-animation-btt'"
+  [dismissable]="false">
+  <form (ngSubmit)="create()" [formGroup]="create_form">
+
+    <div class="card-body" style="
+  padding-bottom: 0px;
+">
+      <h5 class="title">Nuevo Empleado</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6 pr-1">
+              <div class="form-group">
+                <img *ngIf="temporal_image" [src]="imageSrc" alt="" style="width: 40%">
+                <label class="img-side" for="input3">Imagen</label>
+                <input type="file" name="input3" id="input3" (change)="changeFile($event)">
+              </div>
+            </div>
+          </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" class="form-control" placeholder="Nombre" formControlName="name">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-md-6 pr-1">
+            <div class="form-group">
+              <label>Email</label>
+              <input type="text" class="form-control" placeholder="Email" formControlName="email">
+            </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Extencion</label>
+            <input type="number" class="form-control" placeholder="Ext" formControlName="ext">
+          </div>
+        </div>
+      </div>
+     
+      
+    </div>
+    <div class="card-body">
+      <button type="submit" [disabled]="!create_form.valid" class="btn btn-info btn-round accept-button">Aceptar</button>
+    </div>
+  </form>
+
+</ngx-smart-modal>
+<ngx-smart-modal #qrModal identifier="qrModal" [customClass]="'create-modal nsm-dialog-animation-btt'"
+  [dismissable]="false">
+  <div style="text-align: center">
+    <div class="card-body" style="padding-bottom: 0px;">
+      <h5 class="title"> {{employeeSelected?.name}} </h5>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6">
+          <img [src]="getImage(employeeSelected?.image_path)" alt="">
+        </div>
+        <div class="col-md-6">
+          <div class="row" style="display: contents">
+          <qr-code [value]="employeeSelected?._id" [size]="100" [mime]="mime_qr" ></qr-code>
+          </div>
+          <div class="row" style="text-align: center; display: block">
+              <h5 class="title">Deuda total</h5>
+              <h2 class="title">{{ total_compra | currency }}</h2>     
+          </div>
+        </div>
+      </div>
+    
+      <div class="row" style="margin-top: 40px">
+        <div class="table-responsive">
+          <table class="table">
+              <thead class=" text-primary">
+                  <th>
+                      Compra
+                  </th>
+                  <th>
+                      Fecha
+                  </th>
+              </thead>
+              <tbody>
+                  <tr *ngFor="let item of compras">
+                      <td>
+                          {{item.employee[0]?.name}}
+                      </td>
+                      <td>
+                          <table class="table">
+                              <thead class=" text-primary">
+                                  <th>
+
+                                  </th>
+                                  <th>
+                                      Nombre
+                                  </th>
+                                  <th>
+                                      Precio
+                                  </th>
+                               </thead>
+                               <tbody>
+                                  <tr class="animated bounceInRight" *ngFor="let p of item.products; let i = index">
+                                      <td style="text-align: center">
+                                          <a target="_blank" [href]="getImageProduct(p.image_path)" title="Ver imagen">
+                                              <img [src]="getImageProduct(p.image_path)" alt="{{p.name}}" width="60">
+                                          </a>
+                                      </td>
+                                      <td>
+                                          {{ p.name }}
+                                      </td>
+                                      <td>
+                                          {{p.price | currency}}
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td></td>
+                                      <td>Total</td>
+                                      <td>{{item.total | currency}}</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+          </td>
+          <td>
+              {{item.createdAt | date}}
+          </td>
+          </tr>
+          </tbody>
+          </table>
+      </div>
+      </div>
+    </div>
+  </div>
+</ngx-smart-modal>
+<ngx-smart-modal #detailEmployee identifier="detailEmployee" [customClass]="'create-modal nsm-dialog-animation-btt'"
+  [dismissable]="false">
+  
+</ngx-smart-modal>
+<div class="panel-header">
+  <div class="header text-center animated pulse">
+    <h2 class="title">Empleados</h2>
+    <p class="category"> Listado de todo el personal
+    </p>
+    <p>
+      <button (click)="ngxSmartModalService.getModal('createModal').open()" class="btn btn-primary btn-round">Nuevo</button>
+    </p>
+  </div>
+</div>
+<div class="main-content">
+    <div class="row">
+      <div class="col-md-12" >
+        <div class="card animated ">
+          <div class="card-header">
+            <h4 class="card-title "> Listado de empleados</h4>
+          </div>
+          <div class="card-body">
+              <div class="row" >
+                  <div class="col-md-6 pr-1 text-center">
+                      <div class="form-group">
+                          <label>Fecha Inicio</label>
+                          <input type="text" class="form-control" placeholder="Selecciona la fecha"
+                              [(ngModel)]="date_init"
+                              [owlDateTimeTrigger]="dt3" [owlDateTime]="dt3" />
+                          <owl-date-time [pickerType]="'calendar'" #dt3></owl-date-time>
+                      </div>
+                  </div>
+          
+          
+                  <div class="col-md-6 pr-1 text-center">
+                      <div class="form-group">
+                          <label>Fecha Final</label>
+                          <input type="text" class="form-control" placeholder="Selecciona la fecha"
+                              [(ngModel)]="date_finish"
+                              [owlDateTimeTrigger]="dt4" [owlDateTime]="dt4" />
+                          <owl-date-time [pickerType]="'calendar'" #dt4></owl-date-time>
+                      </div>
+                  </div>
+          
+              </div>
+            <div class="row col-md-12">
+                <div class="col-md-6 pr-1">
+                    <div class="form-group">
+                      <label>Buscar</label>
+                      <input type="text" class="form-control" placeholder="Buscar" [(ngModel)]="search" (ngModelChange)="searchFilter()">
+                    </div>
+                  </div>
+            </div>
+              
+            <div class="table-responsive">
+              <table class="table" *ngIf="employee_list.length > 0">
+                <thead class=" text-primary">
+                  <th>
+
+                  </th>
+                  <th>
+                    Nombre
+                  </th>
+                  <th>
+                    Email
+                  </th>
+                  <th>
+                    ERP
+                  </th>
+                  <th>
+                    Extencion
+                  </th>
+                  <th>
+                    Opciones
+                  </th>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let item of employee_list">
+                      <td style="text-align: center">
+                          <a target="_blank" [href]="getImage(item.image_path)" title="Ver imagen">
+                              <img [src]="getImage(item.image_path)" alt="{{item.name}}" width="60">
+                          </a>
+                      </td>
+                    <td>
+                      {{item.name}}
+                    </td>
+                    <td>
+                      {{item.email}}
+                    </td>
+                    <td>
+                        {{item?.code_erp}}
+                    </td>  
+                    <td>
+                        {{item.ext}}
+                      </td>
+                    <td class="td-actions ">
+                        <button (click)="edit_erp(item._id)" type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral"
+                        data-original-title="Edit Task">
+                        <i class="now-ui-icons files_paper"></i>
+                      </button>
+                      <button (click)="showQR(item)" type="button" rel="tooltip" title="" class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral"
+                        data-original-title="Edit Task">
+                        <i class="now-ui-icons business_badge"></i>
+                      </button>
+                      <button (click)="delete(item._id)" type="button" rel="tooltip" title="" class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral"
+                        data-original-title="Remove">
+                        <i class="now-ui-icons ui-1_simple-remove"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12" *ngIf="employee_list.length == 0">
+        <div class="card animated ">
+          <div class="card-header">
+            <h4 class="card-title "> No se encontraron Empleados</h4>
+          </div>
+          <div class="card-body">
+            <lottie-animation-view [options]="lottieConfig" [width]="300" [height]="250">
+            </lottie-animation-view>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="container-left-img"></div>
+    <div class="container-right">
+        <div class="container-right-image">
+            <img src="/assets/img/logo.png" alt="Logo" class="container-right-image-logo">
+        </div>
+        <form class="container-right-form" (ngSubmit)="login()" [formGroup]="loginForm">
+            <input type="text" class="inputs form-control" formControlName="email" placeholder="Correo electrónico">
+            <input type="password" class="inputs form-control" placeholder="Contraseña" formControlName="password">
+            <button class="btn btn-round submit" type="submit">
+                Iniciar sesión
+            </button>
+        </form>
+    </div>
+</div>

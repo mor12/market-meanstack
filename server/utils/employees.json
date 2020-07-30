@@ -1,0 +1,4259 @@
+[
+  {
+    "fname": "Wilber",
+    "lname": "Flores",
+    "user_name": "wilber.flores",
+    "email": "wilber.flores@internal.red4g.net",
+    "agent": 5180,
+    "erp_code": "WIRELESS20",
+    "status": "Activo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Escobar",
+    "user_name": "oescobar",
+    "email": "oescobar@internal.red4g.net",
+    "agent": 5154,
+    "erp_code": "WIRELESS19",
+    "status": "Activo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Ayala",
+    "user_name": "oscar.ayala",
+    "email": "oscar.ayala@internal.red4g.net",
+    "agent": 5130,
+    "erp_code": "WIRELESS18",
+    "status": "Activo"
+  },
+  {
+    "fname": "Cesar",
+    "lname": "Romero",
+    "user_name": "cromero",
+    "email": "cromero@internal.red4g.net",
+    "agent": 5155,
+    "erp_code": "WIRELESS16",
+    "status": "Activo"
+  },
+  {
+    "fname": "Benedicto",
+    "lname": "Hernandez",
+    "user_name": "bhernandez",
+    "email": "bhernandez@internal.red4g.net",
+    "agent": 5201,
+    "erp_code": "WIRELESS15",
+    "status": "Activo"
+  },
+  {
+    "fname": "Beatriz",
+    "lname": "Aguilera",
+    "user_name": "beatriz.aguilera",
+    "email": "beatriz.aguilera@internal.red4g.net",
+    "agent": 5144,
+    "erp_code": "WIRELESS14",
+    "status": "Activo"
+  },
+  {
+    "fname": "Sara",
+    "lname": "Velasco",
+    "user_name": "svelasco",
+    "email": "svelasco@internal.red4g.net",
+    "agent": null,
+    "erp_code": "WIRELESS135",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Wilfredo",
+    "lname": "Salinas",
+    "user_name": "wsalinas",
+    "email": "wsalinas@internal.red4g.net",
+    "agent": 5159,
+    "erp_code": "WIRELESS13",
+    "status": "Activo"
+  },
+  {
+    "fname": "Marta",
+    "lname": "Campos",
+    "user_name": "marta.campos",
+    "email": "marta.campos@internal.red4g.net",
+    "agent": 5133,
+    "erp_code": "WIRELESS11",
+    "status": "Activo"
+  },
+  {
+    "fname": "Luis",
+    "lname": "Cabrera",
+    "user_name": "lcabrera",
+    "email": "lcabrera@internal.red4g.net",
+    "agent": 5190,
+    "erp_code": "WIRELESS10",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kathya",
+    "lname": "Marroquin",
+    "user_name": "kathya.marroquin",
+    "email": "kathya.marroquin@internal.red4g.net",
+    "agent": 5161,
+    "erp_code": "WIRELESS09",
+    "status": "Activo"
+  },
+  {
+    "fname": "Karla",
+    "lname": "Montalvo",
+    "user_name": "karla.montalvo",
+    "email": "kmontalvo@internal.red4g.net",
+    "agent": 5126,
+    "erp_code": "WIRELESS08",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jocelyn",
+    "lname": "Arevalo",
+    "user_name": "jarevalo",
+    "email": "jarevalo@internal.red4g.net",
+    "agent": 5137,
+    "erp_code": "WIRELESS07",
+    "status": "Activo"
+  },
+  {
+    "fname": "Luis",
+    "lname": "Perez",
+    "user_name": "lperez",
+    "email": "lperez@internal.red4g.net",
+    "agent": 5160,
+    "erp_code": "WIRELESS05",
+    "status": "Activo"
+  },
+  {
+    "fname": "Henry",
+    "lname": "Morales",
+    "user_name": "hmorales",
+    "email": "hmorales@internal.red4g.net",
+    "agent": 5157,
+    "erp_code": "WIRELESS04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Flor",
+    "lname": "Sandoval",
+    "user_name": "flor.sandoval",
+    "email": "flor.sandoval@internal.red4g.net",
+    "agent": 5128,
+    "erp_code": "WIRELESS03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Bryan",
+    "lname": "Montoya",
+    "user_name": "bryan.montoya",
+    "email": "bryan.montoya@internal.red4g.net",
+    "agent": 5145,
+    "erp_code": "WIRELESS02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Alexandra",
+    "lname": "Ponce",
+    "user_name": "alexandra.ponce",
+    "email": "alexandra.ponce@internal.red4g.net",
+    "agent": 5086,
+    "erp_code": "WIRELESS01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Sofia ",
+    "lname": "Rosales",
+    "user_name": "srosales",
+    "email": "sofia.rosales@internal.red4g.net",
+    "agent": 5196,
+    "erp_code": "VIASAT08",
+    "status": "Activo"
+  },
+  {
+    "fname": "Luis",
+    "lname": "fiallos",
+    "user_name": "lfiallos",
+    "email": "lfiallos@internal.red4g.net",
+    "agent": 5120,
+    "erp_code": "VIASAT07",
+    "status": "Activo"
+  },
+  {
+    "fname": "Katherine",
+    "lname": "Ramos",
+    "user_name": "kramos",
+    "email": "kramos@internal.red4g.net",
+    "agent": null,
+    "erp_code": "VIASAT05",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Joceline",
+    "lname": "Rodas",
+    "user_name": "jrodas",
+    "email": "jocelyn.rodas@internal.red4g.net",
+    "agent": 6089,
+    "erp_code": "VIASAT05",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jazmin",
+    "lname": "valencia",
+    "user_name": "jvalencia",
+    "email": "jvalencia@internal.red4g.net",
+    "agent": 5205,
+    "erp_code": "VIASAT04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Cesia",
+    "lname": "Vallecios",
+    "user_name": "cvallecios",
+    "email": "cvallecios@internal.red4g.net",
+    "agent": 5043,
+    "erp_code": "VIASAT03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Alexia",
+    "lname": "Zelaya",
+    "user_name": "azelaya",
+    "email": "azelaya@internal.red4g.net",
+    "agent": 5018,
+    "erp_code": "VIASAT02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Alejandro",
+    "lname": "Liévano",
+    "user_name": "alievalo",
+    "email": "alejandro.lievalo@internal.red4g.net",
+    "agent": 5074,
+    "erp_code": "VIASAT01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Ricardo",
+    "lname": "Rivas",
+    "user_name": "rrivas",
+    "email": "rrivas@internal.red4g.net",
+    "agent": 6087,
+    "erp_code": "SUPVIASAT01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Cristina",
+    "lname": "Puquirre",
+    "user_name": "cpuquirre",
+    "email": "cpuquirre@internal.red4g.net",
+    "agent": 5049,
+    "erp_code": "SUPQUALITY43",
+    "status": "Activo"
+  },
+  {
+    "fname": "Augusto",
+    "lname": "Gonzalez",
+    "user_name": "agonzalez",
+    "email": "agonzalez@internal.red4g.net",
+    "agent": 5040,
+    "erp_code": "SUPDTVIN01\t",
+    "status": "Activo"
+  },
+  {
+    "fname": "Rodrigo",
+    "lname": "Sariles",
+    "user_name": "jfernandez",
+    "email": "rsariles@internal.red4g.net",
+    "agent": 5099,
+    "erp_code": "SUPDTV09",
+    "status": "Activo"
+  },
+  {
+    "fname": "Ileana",
+    "lname": "Jimenez",
+    "user_name": "ijimenez",
+    "email": "ijimenez@internal.red4g.net",
+    "agent": 5105,
+    "erp_code": "SUPDTV07",
+    "status": "Activo"
+  },
+  {
+    "fname": "Guillermo",
+    "lname": "Mijango",
+    "user_name": "gmijango",
+    "email": "gmijango@internal.red4g.net",
+    "agent": 5058,
+    "erp_code": "SUPDTV06",
+    "status": "Activo"
+  },
+  {
+    "fname": "Gabriel",
+    "lname": "Portillo",
+    "user_name": "gportillo",
+    "email": "gportillo@internal.red4g.net",
+    "agent": 6090,
+    "erp_code": "SUPDTV04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Eumir",
+    "lname": "Castillo",
+    "user_name": "ecastillo17",
+    "email": "zcastillo@internal.red4g.net",
+    "agent": 5079,
+    "erp_code": "SUPDTV03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Erick",
+    "lname": "Elias",
+    "user_name": "eelias",
+    "email": "eelias@internal.red4g.net",
+    "agent": 5064,
+    "erp_code": "SUPDTV02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jessy",
+    "lname": "Alvarado",
+    "user_name": "jalvarado",
+    "email": "jalvarado@internal.red4g.net",
+    "agent": 5028,
+    "erp_code": "SUP Red4gCC6",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jaime",
+    "lname": "Montoya",
+    "user_name": "jmontoya",
+    "email": "jmontoya@internal.red4g.net",
+    "agent": 5081,
+    "erp_code": "SUP Red4gCC5",
+    "status": "Activo"
+  },
+  {
+    "fname": "Nancy",
+    "lname": "Romero",
+    "user_name": "nromero",
+    "email": "nromero@internal.red4g.net",
+    "agent": 5096,
+    "erp_code": "SUP Red4gCC4",
+    "status": "Activo"
+  },
+  {
+    "fname": "Andrea",
+    "lname": "Henriquez",
+    "user_name": "ahenriquez",
+    "email": "ahenriquez@internal.red4g.net",
+    "agent": 5026,
+    "erp_code": "SUP Red4gCC3",
+    "status": "Activo"
+  },
+  {
+    "fname": "Emma",
+    "lname": "Castillo",
+    "user_name": "ecastillo",
+    "email": "ecastillo@internal.red4g.net",
+    "agent": 5095,
+    "erp_code": "SUP Red4gCC2",
+    "status": "Activo"
+  },
+  {
+    "fname": "Alejandro",
+    "lname": "Barrios",
+    "user_name": "abarrios",
+    "email": "abarrios@red4g.net",
+    "agent": 5036,
+    "erp_code": "SUP Red4gCC1",
+    "status": "Activo"
+  },
+  {
+    "fname": "Ana Maria",
+    "lname": "Merino Paz",
+    "user_name": "ana.merino",
+    "email": "ana.merino@internal.red4g.com",
+    "agent": null,
+    "erp_code": "Red4GCC01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Mirna",
+    "lname": "Lopez",
+    "user_name": "mlopez",
+    "email": "mlopez@red4g.net",
+    "agent": 5206,
+    "erp_code": "RecargasCC07",
+    "status": "Activo"
+  },
+  {
+    "fname": "Alejandra",
+    "lname": "Jimenez",
+    "user_name": "ajimenes",
+    "email": "ajimenez@red4g.net",
+    "agent": null,
+    "erp_code": "RecargasCC06",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kevin",
+    "lname": "Portillo",
+    "user_name": "kevin.portillo",
+    "email": "kevin.portillo@internal.red4g.net",
+    "agent": 5121,
+    "erp_code": "RecargasCC05",
+    "status": "Activo"
+  },
+  {
+    "fname": "Ana",
+    "lname": "Mendez",
+    "user_name": "ana.mendez",
+    "email": "ana.mendez@internal.red4g.net",
+    "agent": 5065,
+    "erp_code": "RecargasCC04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Alejandra",
+    "lname": "Chinchilla",
+    "user_name": "achinchilla",
+    "email": "achinchilla@red4g.net",
+    "agent": 5014,
+    "erp_code": "RecargasCC03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Norelvi",
+    "lname": "Rodas",
+    "user_name": "nrodas",
+    "email": "nrodas@internal.red4g.net",
+    "agent": 5023,
+    "erp_code": "RecargasCC02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Deysi",
+    "lname": "Alvarez",
+    "user_name": "dalvarez",
+    "email": "dalvarez@internal.red4g.net",
+    "agent": 5022,
+    "erp_code": "RecargasCC01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Ricardo",
+    "lname": "Rivera",
+    "user_name": "rrivera",
+    "email": "rrivera@internal.red4g.net",
+    "agent": 5008,
+    "erp_code": "QUALITY75",
+    "status": "Activo"
+  },
+  {
+    "fname": "Rachel",
+    "lname": "Solis",
+    "user_name": "bescobar",
+    "email": "bescobar@red4g.net",
+    "agent": 3,
+    "erp_code": "QUALITY46",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Estela",
+    "lname": "Hernandez",
+    "user_name": "estela.hernandez",
+    "email": "estela.hernandez@internal.red4g.net",
+    "agent": 5171,
+    "erp_code": "QUALITY182",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jeniffer",
+    "lname": "Contreras",
+    "user_name": "jcontreras",
+    "email": "jcontreras@internal.red4g.net",
+    "agent": 5054,
+    "erp_code": "QAWIRELESS02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Stefany",
+    "lname": "Rivera",
+    "user_name": "srivera",
+    "email": "srivera@internal.red4g.net",
+    "agent": 5172,
+    "erp_code": "QAWIRELESS01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Karla",
+    "lname": "Rivas",
+    "user_name": "krivas",
+    "email": "krivas@internal.red4g.net",
+    "agent": null,
+    "erp_code": "QALOCAL85",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Javier",
+    "lname": "Brizuela",
+    "user_name": "jbrizuela",
+    "email": "jbrizuela@internal.red4g.net",
+    "agent": 5041,
+    "erp_code": "QALOCAL48",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Mendoza",
+    "user_name": "jmendoza",
+    "email": "jmendoza@internal.red4g.net",
+    "agent": 5140,
+    "erp_code": "QALOCAL03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Mendoza",
+    "user_name": "cmendoza",
+    "email": "cmendoza@internal.red4g.net",
+    "agent": 5056,
+    "erp_code": "QALOCAL02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Henry",
+    "lname": "zavala",
+    "user_name": "hzavala",
+    "email": "henry.zavala@internal.red4g.net",
+    "agent": 5116,
+    "erp_code": "QALOCAL01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Romy",
+    "lname": "Parada",
+    "user_name": "romy.parada",
+    "email": "romy.parada@internal.red4g.net",
+    "agent": 5163,
+    "erp_code": "QACENTRAL11",
+    "status": "Activo"
+  },
+  {
+    "fname": "Maria",
+    "lname": "Delgado",
+    "user_name": "mdelgado",
+    "email": "mdelgado@internal.red4g.net",
+    "agent": 5024,
+    "erp_code": "QACENTRAL10",
+    "status": "Activo"
+  },
+  {
+    "fname": "Paulina",
+    "lname": "Gómez",
+    "user_name": "pgomez",
+    "email": "paulina.gomez@internal.red4g.net",
+    "agent": 6091,
+    "erp_code": "QACENTRAL09",
+    "status": "Activo"
+  },
+  {
+    "fname": "Guadalupe",
+    "lname": "Alberto",
+    "user_name": "galberto",
+    "email": "galberto@internal.red4g.net",
+    "agent": 5057,
+    "erp_code": "QACENTRAL08",
+    "status": "Activo"
+  },
+  {
+    "fname": "Francisco",
+    "lname": "Molina",
+    "user_name": "francisco.molina",
+    "email": "francisco.molina@internal.red4g.net",
+    "agent": 5176,
+    "erp_code": "QACENTRAL07",
+    "status": "Activo"
+  },
+  {
+    "fname": "Fernando",
+    "lname": "Pleitez",
+    "user_name": "fpleitez",
+    "email": "fpleitez@internal.red4g.net",
+    "agent": 5053,
+    "erp_code": "QACENTRAL05",
+    "status": "Activo"
+  },
+  {
+    "fname": "Gustavo",
+    "lname": "Cubias",
+    "user_name": "gustavo.cubias",
+    "email": "gcubias@internal.red4g.net",
+    "agent": 5109,
+    "erp_code": "QACC05",
+    "status": "Activo"
+  },
+  {
+    "fname": "Andrea",
+    "lname": "Ruiz",
+    "user_name": "aruiz",
+    "email": "aruiz@internal.red4g.net",
+    "agent": 6085,
+    "erp_code": "QACC04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Bladimir",
+    "lname": "Rubio",
+    "user_name": "bladimir.rubio",
+    "email": "vladimir.rubio@internal.red4g.net",
+    "agent": 5115,
+    "erp_code": "QACC03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Alexandra",
+    "lname": "Reyes",
+    "user_name": "areyes",
+    "email": "sreyes@internal.red4g.net",
+    "agent": 5082,
+    "erp_code": "QACC02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Ana",
+    "lname": "Ventura",
+    "user_name": "ana.ventura",
+    "email": "ana.ventura@internal.red4g.net",
+    "agent": 5211,
+    "erp_code": "QACC01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Eva",
+    "lname": "Ayala",
+    "user_name": "eayala",
+    "email": "eayala@internal.red4g.net",
+    "agent": 5119,
+    "erp_code": "QA LOCAL81",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jaquelin",
+    "lname": "Monge",
+    "user_name": "jmonge",
+    "email": "jmonge@internal.red4g.net",
+    "agent": null,
+    "erp_code": "MONITOREO84",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alejandra",
+    "lname": "Martinez",
+    "user_name": "alejandra.martinez",
+    "email": "alejandra.martinez@internal.red4g.net",
+    "agent": null,
+    "erp_code": "MONITOREO136",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Bryan",
+    "lname": "Arias",
+    "user_name": "barias",
+    "email": "barias@red4g.net",
+    "agent": 5113,
+    "erp_code": "Mon4GCC06",
+    "status": "Activo"
+  },
+  {
+    "fname": "Alexis",
+    "lname": "Navarro",
+    "user_name": "anavarro",
+    "email": "anavarro@red4g.net",
+    "agent": 5001,
+    "erp_code": "Mon4GCC04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Cindy",
+    "lname": "Roque",
+    "user_name": "croque",
+    "email": "croque@internal.red4g.net",
+    "agent": 5131,
+    "erp_code": "Mon4GCC02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Melissa",
+    "lname": "Hernandez",
+    "user_name": "mhernandez",
+    "email": "mhernandez@internal.red4g.net",
+    "agent": 5106,
+    "erp_code": "Mon4GCC01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Torres",
+    "user_name": "jtorres",
+    "email": "jtorres@red4g.net",
+    "agent": 5123,
+    "erp_code": "Mon4GCC003",
+    "status": "Activo"
+  },
+  {
+    "fname": "PAOLA VANESSA ",
+    "lname": "AYALA HERNANDEZ",
+    "user_name": "paola.ayala",
+    "email": "paola.ayala@red4g.net",
+    "agent": null,
+    "erp_code": "HON03",
+    "status": "Activo"
+  },
+  {
+    "fname": "ALVARO JOSE ",
+    "lname": "CORNEJO SERMEÑO",
+    "user_name": "alvaro.cornejo",
+    "email": "alvaro.cornejo@red4g.net",
+    "agent": null,
+    "erp_code": "HON02",
+    "status": "Activo"
+  },
+  {
+    "fname": "ANA YANCY",
+    "lname": "ABREGO PLEITEZ",
+    "user_name": "ana.abrego",
+    "email": "ana.abrego@red4g.net",
+    "agent": null,
+    "erp_code": "HON01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Darwin",
+    "lname": "Alberto",
+    "user_name": "dalberto",
+    "email": "dalberto@red4g.net",
+    "agent": 5050,
+    "erp_code": "GGRed4gCC1",
+    "status": "Activo"
+  },
+  {
+    "fname": "Lizbeth",
+    "lname": "Vargas",
+    "user_name": "lizbeth.vargas",
+    "email": "lizbeth.vargas@internal.red4g.net",
+    "agent": 5108,
+    "erp_code": "DTVIN04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Huber ",
+    "lname": "Garcia",
+    "user_name": "hgarcia",
+    "email": "hgarcia@internal.red4.net",
+    "agent": 5136,
+    "erp_code": "DTVIN03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Antonio",
+    "lname": "Bautista",
+    "user_name": "abautista",
+    "email": "abautista@internal.red4g.net",
+    "agent": 6094,
+    "erp_code": "DTVIN02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kevin",
+    "lname": "Sánchez",
+    "user_name": "ksanchez",
+    "email": "ksanchez@internal.red4g.net",
+    "agent": 5078,
+    "erp_code": "DTVIN01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jeannet",
+    "lname": "Zavaleta",
+    "user_name": "jzavaleta",
+    "email": "jzavaleta@internal.red4g.net",
+    "agent": 5110,
+    "erp_code": "DTVCC23",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jessica",
+    "lname": "Vasquez",
+    "user_name": "jvasquez",
+    "email": "jvasquez@internal.red4g.net",
+    "agent": 5052,
+    "erp_code": "DTVCC22",
+    "status": "Activo"
+  },
+  {
+    "fname": "Edwin",
+    "lname": "Trigueros",
+    "user_name": "edwin.trigueros",
+    "email": "edwin.trigueros@internal.red4g.net",
+    "agent": 5156,
+    "erp_code": "DTVCC21",
+    "status": "Activo"
+  },
+  {
+    "fname": "Mauricio",
+    "lname": "Soriano",
+    "user_name": "mauricio.soriano",
+    "email": "mauricio.soriano@internal.red4g.net",
+    "agent": 5187,
+    "erp_code": "DTVCC20",
+    "status": "Activo"
+  },
+  {
+    "fname": "Gabriela",
+    "lname": "Ruiz",
+    "user_name": "gabriela.ruiz",
+    "email": "gabriela.ruiz@internal.red4g.net",
+    "agent": 5132,
+    "erp_code": "DTVCC19",
+    "status": "Activo"
+  },
+  {
+    "fname": "Ariela",
+    "lname": "Ruano",
+    "user_name": "aruano",
+    "email": "aruano@internal.red4g.net",
+    "agent": 5124,
+    "erp_code": "DTVCC18",
+    "status": "Activo"
+  },
+  {
+    "fname": "Ricardo",
+    "lname": "Rogel",
+    "user_name": "rrogel",
+    "email": "rrogel@internal.red4g.net",
+    "agent": 5071,
+    "erp_code": "DTVCC17",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kevin ",
+    "lname": "Rodriguez",
+    "user_name": "krodriguez",
+    "email": "krodriguez@internal.red4g.net",
+    "agent": 5202,
+    "erp_code": "DTVCC16",
+    "status": "Activo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Portillo",
+    "user_name": "oscar.portillo",
+    "email": "oscar.portillo@internal.red4g.net",
+    "agent": 5188,
+    "erp_code": "DTVCC15",
+    "status": "Activo"
+  },
+  {
+    "fname": "Elena",
+    "lname": "Orellana",
+    "user_name": "eorellana",
+    "email": "eorellana@internal.red4g.net",
+    "agent": 5073,
+    "erp_code": "DTVCC14",
+    "status": "Activo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Oliva",
+    "user_name": "ooliva",
+    "email": "ooliva@internal.red4g.net",
+    "agent": 5195,
+    "erp_code": "DTVCC13",
+    "status": "Activo"
+  },
+  {
+    "fname": "Elieser",
+    "lname": "Nerio",
+    "user_name": "elieser.nerio",
+    "email": "elieser.nerio@internal.red4g.net",
+    "agent": 5097,
+    "erp_code": "DTVCC12",
+    "status": "Activo"
+  },
+  {
+    "fname": "Xiomara",
+    "lname": "Moran",
+    "user_name": "xmoran",
+    "email": "xmoran@internal.red4g.net",
+    "agent": 5087,
+    "erp_code": "DTVCC11",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kevin",
+    "lname": "Mejia",
+    "user_name": "kmejia",
+    "email": "kmejia@internal.red4g.net",
+    "agent": 5069,
+    "erp_code": "DTVCC10",
+    "status": "Activo"
+  },
+  {
+    "fname": "Marvin",
+    "lname": "Martinez",
+    "user_name": "mmartinez",
+    "email": "mmartinez@internal.red4g.net",
+    "agent": 5055,
+    "erp_code": "DTVCC09",
+    "status": "Activo"
+  },
+  {
+    "fname": "Gabriel",
+    "lname": "Ancheta",
+    "user_name": "gabriel.ancheta",
+    "email": "gabriel.ancheta@internal.red4g.net",
+    "agent": 5149,
+    "erp_code": "DTVCC08",
+    "status": "Activo"
+  },
+  {
+    "fname": "Bryan",
+    "lname": "Hernandez",
+    "user_name": "bryan.hernandez",
+    "email": "bryan.hernandez@internal.red4g.net",
+    "agent": 5146,
+    "erp_code": "DTVCC07",
+    "status": "Activo"
+  },
+  {
+    "fname": "Santos",
+    "lname": "Gomez",
+    "user_name": "sgomez",
+    "email": "sgomes@red4g.net",
+    "agent": null,
+    "erp_code": "DTVCC06",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Hans",
+    "lname": "Magaña",
+    "user_name": "hmagaña",
+    "email": "hmagana@internal.red4g.net",
+    "agent": 5046,
+    "erp_code": "DTVCC05",
+    "status": "Activo"
+  },
+  {
+    "fname": "Edson",
+    "lname": "Cornejo",
+    "user_name": "ecornejo2018",
+    "email": "ecornejo@internal.red4g.net",
+    "agent": 5107,
+    "erp_code": "DTVCC04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jocelyn",
+    "lname": "Cabezas",
+    "user_name": "jocelyn.cabezas",
+    "email": "jocelyn.cabezas@internal.red4g.net",
+    "agent": 5147,
+    "erp_code": "DTVCC03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Erika",
+    "lname": "Ayala",
+    "user_name": "erika.ayala",
+    "email": "erika.ayala@internal.red4g.net",
+    "agent": 5175,
+    "erp_code": "DTVCC02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Joseline",
+    "lname": "Ardon",
+    "user_name": "jardon",
+    "email": "jardon@internal.red4g.net",
+    "agent": 5063,
+    "erp_code": "DTVCC01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Oswaldo",
+    "lname": "Velasquez",
+    "user_name": "ovelasquez",
+    "email": "ovelasquez@internal.red4g.net",
+    "agent": 5129,
+    "erp_code": "DTV98",
+    "status": "Activo"
+  },
+  {
+    "fname": "Brenda",
+    "lname": "Turcios",
+    "user_name": "bturcios",
+    "email": "bturcios@internal.red4g.net",
+    "agent": 5111,
+    "erp_code": "DTV97",
+    "status": "Activo"
+  },
+  {
+    "fname": "Katherine",
+    "lname": "Romero",
+    "user_name": "kromero",
+    "email": "kromero@internal.red4g.net",
+    "agent": 5009,
+    "erp_code": "DTV96",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jeniffer",
+    "lname": "Murillo",
+    "user_name": "jmurillo",
+    "email": "jmurillo@internal.red4g.net",
+    "agent": 5122,
+    "erp_code": "DTV92",
+    "status": "Activo"
+  },
+  {
+    "fname": "Aleyda",
+    "lname": "Rivera",
+    "user_name": "arivera",
+    "email": "arivera@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV91",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Daniela",
+    "lname": "Diaz",
+    "user_name": "ddiaz",
+    "email": "ddiaz@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV90",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Ricardo",
+    "lname": "Funes",
+    "user_name": "rfunes",
+    "email": "rfunes@internal.red4g.net",
+    "agent": 5127,
+    "erp_code": "DTV87",
+    "status": "Activo"
+  },
+  {
+    "fname": "Miguel",
+    "lname": "Castro",
+    "user_name": "mcastro",
+    "email": "mcastro@internal.red4g.net",
+    "agent": 5117,
+    "erp_code": "DTV86",
+    "status": "Activo"
+  },
+  {
+    "fname": "Stephanie",
+    "lname": "Constancia",
+    "user_name": "sconstancia",
+    "email": "sconstancia@internal.red4g.net",
+    "agent": 5039,
+    "erp_code": "DTV83",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kevin",
+    "lname": "Puquirre",
+    "user_name": "kpuquirre",
+    "email": "kpuquirre@internal.red4g.net",
+    "agent": 5118,
+    "erp_code": "DTV82",
+    "status": "Activo"
+  },
+  {
+    "fname": "Karla",
+    "lname": "Choto",
+    "user_name": "kchoto",
+    "email": "kchoto@internal.red4g.net",
+    "agent": 5070,
+    "erp_code": "DTV76",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jonathan",
+    "lname": "Diaz",
+    "user_name": "jdiaz",
+    "email": "jdiaz@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV73",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Walter",
+    "lname": "Chavez",
+    "user_name": "wchavez",
+    "email": "wchavez@internal.red4g.net",
+    "agent": 5013,
+    "erp_code": "DTV72",
+    "status": "Activo"
+  },
+  {
+    "fname": "Luis",
+    "lname": "Muñoz",
+    "user_name": "lmunoz",
+    "email": "lmunoz@internal.red4g.net",
+    "agent": 5076,
+    "erp_code": "DTV69",
+    "status": "Activo"
+  },
+  {
+    "fname": "Nelson",
+    "lname": "Siliezar",
+    "user_name": "nsiliezar",
+    "email": "nsiliezar@internal.red4g.net",
+    "agent": 5033,
+    "erp_code": "DTV67",
+    "status": "Activo"
+  },
+  {
+    "fname": "Wendy",
+    "lname": "Ayala",
+    "user_name": "wayala",
+    "email": "wayala@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV60",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Juan",
+    "lname": "Ganuza",
+    "user_name": "jganuza",
+    "email": "jganuza@red4g.net",
+    "agent": 5042,
+    "erp_code": "DTV55",
+    "status": "Activo"
+  },
+  {
+    "fname": "Aldair",
+    "lname": "Echeverria",
+    "user_name": "aecheverria",
+    "email": "aecheverria@red4g.net",
+    "agent": 5101,
+    "erp_code": "DTV54",
+    "status": "Activo"
+  },
+  {
+    "fname": "Rachel",
+    "lname": "Solis",
+    "user_name": "rsolis",
+    "email": "rsolis@internal.red4g.net",
+    "agent": 5072,
+    "erp_code": "DTV46",
+    "status": "Activo"
+  },
+  {
+    "fname": "Brandon",
+    "lname": "Montano",
+    "user_name": "bmontano",
+    "email": "bmontano@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV44",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Emerson",
+    "lname": "Guzman",
+    "user_name": "eguzman",
+    "email": "eguzman@internal.red4g.net",
+    "agent": 6083,
+    "erp_code": "DTV41",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jocelyn",
+    "lname": "Santos",
+    "user_name": "jsantos",
+    "email": "jsantos@internal.red4g.net",
+    "agent": 6088,
+    "erp_code": "DTV40",
+    "status": "Activo"
+  },
+  {
+    "fname": "Heidi",
+    "lname": "Rivas",
+    "user_name": "hrivas",
+    "email": "hrivas@internal.red4g.net",
+    "agent": 6084,
+    "erp_code": "DTV38",
+    "status": "Activo"
+  },
+  {
+    "fname": "Eva",
+    "lname": "Torres",
+    "user_name": "etorres",
+    "email": "etorres@internal.red4g.net",
+    "agent": 6086,
+    "erp_code": "DTV37",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jessica",
+    "lname": "Alas",
+    "user_name": "jalas",
+    "email": "jalas@internal.red4g.net",
+    "agent": 5012,
+    "erp_code": "DTV35",
+    "status": "Activo"
+  },
+  {
+    "fname": "Susana",
+    "lname": "Lopez",
+    "user_name": "slopez",
+    "email": "slopez@internal.red4g.net",
+    "agent": 5102,
+    "erp_code": "DTV34",
+    "status": "Activo"
+  },
+  {
+    "fname": "Amanda",
+    "lname": "Escobar",
+    "user_name": "aescobar",
+    "email": "aescobar@internal.red4g.net",
+    "agent": 5059,
+    "erp_code": "DTV33",
+    "status": "Activo"
+  },
+  {
+    "fname": "Pamela",
+    "lname": "Vaquerano",
+    "user_name": "pvaquerano",
+    "email": "pvaquerano@internal.red4g.net",
+    "agent": 5045,
+    "erp_code": "DTV29",
+    "status": "Activo"
+  },
+  {
+    "fname": "Melany",
+    "lname": "Alvarado",
+    "user_name": "malvarado",
+    "email": "malvarado@internal.red4g.net",
+    "agent": 5038,
+    "erp_code": "DTV28",
+    "status": "Activo"
+  },
+  {
+    "fname": "Eduardo",
+    "lname": "Beltran",
+    "user_name": "ebeltran",
+    "email": "ebeltran@internal.red4g.net",
+    "agent": 5098,
+    "erp_code": "DTV26",
+    "status": "Activo"
+  },
+  {
+    "fname": "Karina",
+    "lname": "Reyes",
+    "user_name": "kreyes",
+    "email": "kreyes@internal.red4g.net",
+    "agent": 5075,
+    "erp_code": "DTV25",
+    "status": "Activo"
+  },
+  {
+    "fname": "David",
+    "lname": "Chavez",
+    "user_name": "dchavez",
+    "email": "dchavez@internal.red4g.net",
+    "agent": 5153,
+    "erp_code": "DTV219",
+    "status": "Activo"
+  },
+  {
+    "fname": "Enrique",
+    "lname": "Umaña",
+    "user_name": "eumaña",
+    "email": "eportillo@internal.red4g.net",
+    "agent": 5210,
+    "erp_code": "DTV216",
+    "status": "Activo"
+  },
+  {
+    "fname": "Erick ",
+    "lname": "Guardado",
+    "user_name": "eguardado",
+    "email": "eguardado@internal.red4g.net",
+    "agent": 5203,
+    "erp_code": "DTV207",
+    "status": "Activo"
+  },
+  {
+    "fname": "Karen",
+    "lname": "Echeverria",
+    "user_name": "kecheverria",
+    "email": "kecheverria@internal.red4g.net",
+    "agent": 5094,
+    "erp_code": "DTV205",
+    "status": "Activo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Barrera",
+    "user_name": "obarrera",
+    "email": "obarrera@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV203",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jessenia",
+    "lname": "Ramirez",
+    "user_name": "jessenia.ramirez",
+    "email": "jessenia.ramirez@internal.red4g.net",
+    "agent": 5198,
+    "erp_code": "DTV201",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kenelma ",
+    "lname": "Martinez",
+    "user_name": "kmartinez",
+    "email": "kenelma.martinez@internal.red4g.net",
+    "agent": 5197,
+    "erp_code": "DTV200",
+    "status": "Activo"
+  },
+  {
+    "fname": "Michelle ",
+    "lname": "Choto",
+    "user_name": "michelle.choto",
+    "email": "michelle.choto@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV199",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Luis",
+    "lname": "Flores",
+    "user_name": "lflores",
+    "email": "lflores@internal.red4g.net",
+    "agent": 6005,
+    "erp_code": "DTV198",
+    "status": "Activo"
+  },
+  {
+    "fname": "Adrian",
+    "lname": "Zavaleta",
+    "user_name": "azavaleta",
+    "email": "azavaleta@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV197",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Andres",
+    "lname": "Pereira",
+    "user_name": "andres.pereira",
+    "email": "apereira@internal.red4g.net",
+    "agent": 5199,
+    "erp_code": "DTV196",
+    "status": "Activo"
+  },
+  {
+    "fname": "Melissa",
+    "lname": "Constancia ",
+    "user_name": "melissa.constancia",
+    "email": "mconstancia@internal.red4g.net",
+    "agent": 5007,
+    "erp_code": "DTV195",
+    "status": "Activo"
+  },
+  {
+    "fname": "David ",
+    "lname": "Ayala",
+    "user_name": "dayala",
+    "email": "dayala@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV194",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Omar ",
+    "lname": "menjivar",
+    "user_name": "omenjivar",
+    "email": "omar.menjivar@internal.red4g.net",
+    "agent": 5017,
+    "erp_code": "DTV193",
+    "status": "Activo"
+  },
+  {
+    "fname": "Lizzeth",
+    "lname": "Rodas",
+    "user_name": "lrodas",
+    "email": "lrodas@red4g.net",
+    "agent": 5027,
+    "erp_code": "DTV192",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jimena",
+    "lname": "Paz",
+    "user_name": "jpaz",
+    "email": "jpaz@red4g.net",
+    "agent": 8002,
+    "erp_code": "DTV192",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Gabriela",
+    "lname": "Fajardo",
+    "user_name": "mfajardo",
+    "email": "mfajardo@internal.red4g.net",
+    "agent": 5021,
+    "erp_code": "DTV191",
+    "status": "Activo"
+  },
+  {
+    "fname": "Debora",
+    "lname": "Morales",
+    "user_name": "debora.morales",
+    "email": "debora.morales@internal.red4g.net",
+    "agent": 5150,
+    "erp_code": "DTV186",
+    "status": "Activo"
+  },
+  {
+    "fname": "Maria",
+    "lname": "Alfaro",
+    "user_name": "maria.alfaro",
+    "email": "maria.alfaro@internal.red4g.net",
+    "agent": 5192,
+    "erp_code": "DTV185",
+    "status": "Activo"
+  },
+  {
+    "fname": "Karen",
+    "lname": "Pulunto",
+    "user_name": "karen.pulunto",
+    "email": "karen.pulunto@internal.red4g.net",
+    "agent": 5168,
+    "erp_code": "DTV180",
+    "status": "Activo"
+  },
+  {
+    "fname": "Yelena",
+    "lname": "Martinez",
+    "user_name": "yelena.martinez",
+    "email": "yelena.martinez@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV175",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Diaz",
+    "user_name": "jose.diaz",
+    "email": "jose.diaz@internal.red4g.net",
+    "agent": 5191,
+    "erp_code": "DTV173",
+    "status": "Activo"
+  },
+  {
+    "fname": "Rafael",
+    "lname": "Carrillo",
+    "user_name": "rafael.carrillo",
+    "email": "rafael.carrillo@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV171",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Gustavo",
+    "lname": "Moran",
+    "user_name": "gustavo.moran",
+    "email": "gustavo.moran@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV169",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Andrea",
+    "lname": "Gonzales",
+    "user_name": "andrea.gonzales",
+    "email": "andrea.gonzales@internal.red4g.net",
+    "agent": 5189,
+    "erp_code": "DTV165",
+    "status": "Activo"
+  },
+  {
+    "fname": "Marvin",
+    "lname": "Campos",
+    "user_name": "marvin.campos",
+    "email": "marvin.campos@internal.red4g.net",
+    "agent": 5178,
+    "erp_code": "DTV162",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Umaña",
+    "user_name": "jose.umana",
+    "email": "jose.umana@internal.red4g.net",
+    "agent": 5179,
+    "erp_code": "DTV160",
+    "status": "Activo"
+  },
+  {
+    "fname": "Blanca",
+    "lname": "Cruz",
+    "user_name": "blanca.cruz",
+    "email": "blanca.cruz@internal.red4g.net",
+    "agent": 5177,
+    "erp_code": "DTV159",
+    "status": "Activo"
+  },
+  {
+    "fname": "Denisse",
+    "lname": "Sampson",
+    "user_name": "dsampson",
+    "email": "denisse.sampson@internal.red4g.net",
+    "agent": 5181,
+    "erp_code": "DTV158",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kevin",
+    "lname": "Barahona",
+    "user_name": "kevin.barahona",
+    "email": "kevin.barahona@internal.red4g.net",
+    "agent": 5183,
+    "erp_code": "DTV157",
+    "status": "Activo"
+  },
+  {
+    "fname": "Debora",
+    "lname": "Campos",
+    "user_name": "debora.campos",
+    "email": "debora.campos@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV151",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Selva",
+    "user_name": "carlos.selva",
+    "email": "carlos.selva@internal.red4g.net",
+    "agent": 5151,
+    "erp_code": "DTV149",
+    "status": "Activo"
+  },
+  {
+    "fname": "Johana",
+    "lname": "Perez",
+    "user_name": "jperez",
+    "email": "jperez@internal.red4g.net",
+    "agent": 5173,
+    "erp_code": "DTV148",
+    "status": "Activo"
+  },
+  {
+    "fname": "Manuel",
+    "lname": "Vásquez",
+    "user_name": "mvasquez",
+    "email": "mvasquez@internal.red4g.net",
+    "agent": 5174,
+    "erp_code": "DTV147",
+    "status": "Activo"
+  },
+  {
+    "fname": "Boris",
+    "lname": "Vaquerano",
+    "user_name": "boris.vaquerano",
+    "email": "boris.vaquerano@internal.red4g.net",
+    "agent": 5165,
+    "erp_code": "DTV144",
+    "status": "Activo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Gamero",
+    "user_name": "jose.gamero",
+    "email": "jose.gamero@internal.red4g.net",
+    "agent": 5169,
+    "erp_code": "DTV143",
+    "status": "Activo"
+  },
+  {
+    "fname": "Mario",
+    "lname": "Alvarado",
+    "user_name": "mario.alvarado",
+    "email": "mario.alvarado@internal.red4g.net",
+    "agent": 5167,
+    "erp_code": "DTV141",
+    "status": "Activo"
+  },
+  {
+    "fname": "Angel",
+    "lname": "Alvarado",
+    "user_name": "angel.alvarado",
+    "email": "angel.alvarado@internal.red4g.net",
+    "agent": 5164,
+    "erp_code": "DTV140",
+    "status": "Activo"
+  },
+  {
+    "fname": "Willian",
+    "lname": "Hernandez",
+    "user_name": "william.hernandez",
+    "email": "willian.hernandez@internal.red4g.net",
+    "agent": 5162,
+    "erp_code": "DTV139",
+    "status": "Activo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Ortiz",
+    "user_name": "cortiz",
+    "email": "cortiz@internal.red4g.net",
+    "agent": 5048,
+    "erp_code": "DTV13",
+    "status": "Activo"
+  },
+  {
+    "fname": "Tannya",
+    "lname": "Osorio",
+    "user_name": "tannya.osorio",
+    "email": "tannya.osorio@internal.red4g.net",
+    "agent": 5148,
+    "erp_code": "DTV128",
+    "status": "Activo"
+  },
+  {
+    "fname": "Kimberly",
+    "lname": "Portillo",
+    "user_name": "kportillo",
+    "email": "kportillo@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV12",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Silvia",
+    "lname": "Quintanilla",
+    "user_name": "squintanilla",
+    "email": "squintanilla@internal.red4g.net",
+    "agent": 5114,
+    "erp_code": "DTV113",
+    "status": "Activo"
+  },
+  {
+    "fname": "Lisandro",
+    "lname": "Ortiz",
+    "user_name": "lortiz",
+    "email": "lortiz@internal.red4g.net",
+    "agent": 5044,
+    "erp_code": "DTV111",
+    "status": "Activo"
+  },
+  {
+    "fname": "Maria",
+    "lname": "Alas",
+    "user_name": "malas",
+    "email": "malas@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV110",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Andrea",
+    "lname": "Flores",
+    "user_name": "aflores",
+    "email": "aflores@internal.red4g.net",
+    "agent": 5138,
+    "erp_code": "DTV108",
+    "status": "Activo"
+  },
+  {
+    "fname": "Beatriz",
+    "lname": "Gomez",
+    "user_name": "bgomez",
+    "email": "bgomez@internal.red4g.net",
+    "agent": 5135,
+    "erp_code": "DTV107",
+    "status": "Activo"
+  },
+  {
+    "fname": "Sarai",
+    "lname": "Coreas",
+    "user_name": "scoreas",
+    "email": "scoreas@internal.red4g.net",
+    "agent": 5134,
+    "erp_code": "DTV106",
+    "status": "Activo"
+  },
+  {
+    "fname": "Xochilt",
+    "lname": "Cruz",
+    "user_name": "xcruz",
+    "email": "xcruz@internal.red4g.net",
+    "agent": 5077,
+    "erp_code": "DTV05",
+    "status": "Activo"
+  },
+  {
+    "fname": "Benjamin",
+    "lname": "Rodriguez",
+    "user_name": "mrodriguez",
+    "email": "mrodriguez@internal.red4g.net",
+    "agent": null,
+    "erp_code": "DTV02",
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alejandra",
+    "lname": "Mejia",
+    "user_name": "gmejia",
+    "email": "gmejia@internal.red4g.net",
+    "agent": 5080,
+    "erp_code": "DTV005\t",
+    "status": "Activo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Cuellar",
+    "user_name": "ocuellar",
+    "email": "ocuellar@red4g.net",
+    "agent": 5000,
+    "erp_code": "DTV001",
+    "status": "Activo"
+  },
+  {
+    "fname": "Fernando",
+    "lname": "Vargas",
+    "user_name": "fernando.vargas",
+    "email": "fernando.vargas@internal.red4g.net",
+    "agent": 5068,
+    "erp_code": "CostumerCC05",
+    "status": "Activo"
+  },
+  {
+    "fname": "Erika",
+    "lname": "Escobar",
+    "user_name": "erika.escobar",
+    "email": "erika.escobar@internal.red4g.net",
+    "agent": 5182,
+    "erp_code": "CostumerCC04",
+    "status": "Activo"
+  },
+  {
+    "fname": "Cinthya",
+    "lname": "Perez",
+    "user_name": "cperez",
+    "email": "cperez@internal.red4g.net",
+    "agent": 5139,
+    "erp_code": "CostumerCC03",
+    "status": "Activo"
+  },
+  {
+    "fname": "Karina",
+    "lname": "Henriquez",
+    "user_name": "khenriquez",
+    "email": "khenriquez@internal.red4g.net",
+    "agent": 5141,
+    "erp_code": "CostumerCC02",
+    "status": "Activo"
+  },
+  {
+    "fname": "Teresa",
+    "lname": "Gomez",
+    "user_name": "teresa.gomez",
+    "email": "teresa.gomez@internal.red4g.net",
+    "agent": 5067,
+    "erp_code": "CostumerCC01",
+    "status": "Activo"
+  },
+  {
+    "fname": "Elmer",
+    "lname": "Ortiz",
+    "user_name": "eortiz",
+    "email": "eortiz@red4g.net",
+    "agent": 5032,
+    "erp_code": "8734hd",
+    "status": "Activo"
+  },
+  {
+    "fname": "Noe",
+    "lname": "Ortiz",
+    "user_name": "nortiz",
+    "email": "nortiz@red4g.net",
+    "agent": 5031,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Debug",
+    "lname": "User",
+    "user_name": "dbug",
+    "email": "duser@red4g.net",
+    "agent": 50162,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Jacqueline",
+    "lname": "Martinez",
+    "user_name": "jmartine",
+    "email": "jmartine@red4g.net",
+    "agent": 2008,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rebeca",
+    "lname": "Hernadez",
+    "user_name": "raguilar",
+    "email": "raguilar@red4g.net",
+    "agent": 2009,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Mauricio",
+    "lname": "Esquivel",
+    "user_name": "mesquivel",
+    "email": "mesquivel@red4g.net",
+    "agent": 2010,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Marlon",
+    "lname": "Montano",
+    "user_name": "mmontano",
+    "email": "mmontano@red4g.net",
+    "agent": 7035,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Cecilia",
+    "lname": "Alfaro",
+    "user_name": "calfaro",
+    "email": "calfaro@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Celia",
+    "lname": "Rodriguez",
+    "user_name": "crodriguez",
+    "email": "crodriguez@red4g.net",
+    "agent": 2003,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jenny",
+    "lname": "Gonzalez",
+    "user_name": "jgonzalez",
+    "email": "jgonzalez@red4g.net",
+    "agent": 5037,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Clarissa",
+    "lname": "Sanchez",
+    "user_name": "camaya",
+    "email": "camaya@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Frank",
+    "lname": "Medrano",
+    "user_name": "fingles",
+    "email": "fingles@red4g.net",
+    "agent": 2005,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Milton",
+    "lname": "Garcia",
+    "user_name": "malcantara",
+    "email": "malcantara@red4g.net",
+    "agent": 2006,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Urania",
+    "lname": "Diaz",
+    "user_name": "udiaz",
+    "email": "udiaz@red4g.net",
+    "agent": 2007,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Damaris",
+    "lname": "Romero",
+    "user_name": "dromero",
+    "email": "dromero@red4g.net",
+    "agent": 7018,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "User",
+    "lname": "App",
+    "user_name": "uapp",
+    "email": "app@red4g.net",
+    "agent": 2011,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Barahona",
+    "user_name": "obarahona",
+    "email": "obarahona@red4g.net",
+    "agent": 2012,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Mariana",
+    "lname": "Campos",
+    "user_name": "mcampos",
+    "email": "mcampos123@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Delwin",
+    "lname": "Villalta",
+    "user_name": "dvillalta",
+    "email": "dvillalta@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Ronald",
+    "lname": "Lozano",
+    "user_name": "rlozano",
+    "email": "rlozano@red4g.net",
+    "agent": 7616,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Diego",
+    "lname": "Leiva",
+    "user_name": "dleiva",
+    "email": "dleiva@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Roberto",
+    "lname": "Marinero",
+    "user_name": "rmarinero",
+    "email": "rmarinero@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rocio",
+    "lname": "Serbellon",
+    "user_name": "rserbellon",
+    "email": "rserbellon@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jaqueline",
+    "lname": "Campos",
+    "user_name": "jcampos",
+    "email": "jcampos@red4g.net",
+    "agent": 7047,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "William",
+    "lname": "Hernandez",
+    "user_name": "ehernandez",
+    "email": "whernandez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Marlon",
+    "lname": "Bercian",
+    "user_name": "mbercian",
+    "email": "mbercian@red4g.net",
+    "agent": 507001,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Luis",
+    "lname": "Lopez",
+    "user_name": "llopez",
+    "email": "llopez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Arlette",
+    "lname": "Solis",
+    "user_name": "asolis",
+    "email": "asolis@red4g.net",
+    "agent": 7008,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Blanca",
+    "lname": "Nuila",
+    "user_name": "bnuila",
+    "email": "bnuila@red4g.net",
+    "agent": 7049,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Nelson",
+    "lname": "Lopez",
+    "user_name": "nlopez",
+    "email": "nlopez@red4g.net",
+    "agent": 7007,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Elizabeth",
+    "lname": "Rivera",
+    "user_name": "erivera",
+    "email": "erivera@red4g.net",
+    "agent": 7054,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Raquel",
+    "lname": "Escobar",
+    "user_name": "rescobar",
+    "email": "rescobar@red4g.net",
+    "agent": 7040,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Fatima",
+    "lname": "Escobar",
+    "user_name": "fescobar",
+    "email": "fescobar@red4g.net",
+    "agent": 17025,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Evelyn",
+    "lname": "Castellon",
+    "user_name": "ecastellon",
+    "email": "ecastellon@red4g.net",
+    "agent": 7003,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Kenia",
+    "lname": "Sibiran",
+    "user_name": "ksibirian",
+    "email": "ksibirian@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rafael",
+    "lname": "Orellana",
+    "user_name": "rorellana",
+    "email": "rorellana@red4g.net",
+    "agent": 2024,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Johanna",
+    "lname": "Avila",
+    "user_name": "javila",
+    "email": "javila@red4g.net",
+    "agent": 441,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Marcela",
+    "lname": "Pacheco",
+    "user_name": "cpacheco",
+    "email": "cpacheco@red4g.net",
+    "agent": 443,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Johana",
+    "lname": "Ramirez",
+    "user_name": "jramirez",
+    "email": "jramirez@red4g.net",
+    "agent": 444,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Cinthya",
+    "lname": "Nuñez",
+    "user_name": "cnunnez",
+    "email": "cnunez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "David",
+    "lname": "Pinto",
+    "user_name": "dpinto",
+    "email": "dpinto@red4g.net",
+    "agent": 1705232,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Kenia",
+    "lname": "Garcia",
+    "user_name": "kgarcia",
+    "email": "kgarcia@red4g.net",
+    "agent": 1705233,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Abigail",
+    "lname": "Galindo",
+    "user_name": "agalindo",
+    "email": "agalindo@red4g.net",
+    "agent": 1705234,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Federico",
+    "lname": "Climaco",
+    "user_name": "fclimaco",
+    "email": "fclimaco@red4g.net",
+    "agent": 170613,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "No",
+    "lname": "Asignado",
+    "user_name": "not_assigned",
+    "email": "tiendas@red4g.net",
+    "agent": 1706132,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "William",
+    "lname": "Villegas",
+    "user_name": "wvillegas",
+    "email": "wvillegas@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Kevin",
+    "lname": "Climaco",
+    "user_name": "kclimaco",
+    "email": "kclimaco@red4g.net",
+    "agent": 22033,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Marcos",
+    "lname": "Chi",
+    "user_name": "mchi",
+    "email": "mchi@red4g.net",
+    "agent": 28278,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Shiley",
+    "lname": "Melendez",
+    "user_name": "smelendez",
+    "email": "smelendez@red4g.net",
+    "agent": 17072401,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Dalila",
+    "lname": "Garcia",
+    "user_name": "dgarcia",
+    "email": "dgarcia@red4g.net",
+    "agent": 17072402,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Debby",
+    "lname": "Hernandez",
+    "user_name": "dhernandez",
+    "email": "dhernandez@red4g.net",
+    "agent": 17072403,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Mercy",
+    "lname": "Rivera",
+    "user_name": "mrivera",
+    "email": "crivera@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rocio",
+    "lname": "Pineda",
+    "user_name": "rpineda",
+    "email": "rpineda@red4g.net",
+    "agent": 2019,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Sergio",
+    "lname": "Martinez",
+    "user_name": "smartinez",
+    "email": "delete1@red4g.net",
+    "agent": 2014,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Maria",
+    "lname": "Alejandra",
+    "user_name": "malejandra",
+    "email": "malejandra@red4g.net",
+    "agent": 2015,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Emerson",
+    "lname": "Cornejo",
+    "user_name": "ecornejo",
+    "email": "ecornejo_old@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Javier",
+    "lname": "Zelaya",
+    "user_name": "jzelaya",
+    "email": "jzelaya@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Karla",
+    "lname": "Lopez",
+    "user_name": "klopez",
+    "email": "klopez@red4g.net",
+    "agent": 2018,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Archila",
+    "user_name": "oarchila17",
+    "email": "oarchila@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Argumedo",
+    "user_name": "cargumedo",
+    "email": "cargumedo@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rodigo",
+    "lname": "Pacas",
+    "user_name": "rpacas",
+    "email": "rpacas@red4g.net",
+    "agent": 2021,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Sidra",
+    "lname": "Sidra",
+    "user_name": "sidra",
+    "email": "star_sattelite@hotmail.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Yesenia",
+    "lname": "Orellana",
+    "user_name": "yorellana",
+    "email": "yorellana@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Carolina",
+    "lname": "Bonilla",
+    "user_name": "cbonilla",
+    "email": "cbonilla@red4g.net",
+    "agent": 9096,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Marcela",
+    "lname": "Garcia",
+    "user_name": "mgarcia",
+    "email": "mgarcia@red4g.net",
+    "agent": 2022,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Melany",
+    "lname": "Benavides",
+    "user_name": "sadmin",
+    "email": "zeres@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "William",
+    "lname": "Gomez",
+    "user_name": "wgomez",
+    "email": "wgomez@red4g.net",
+    "agent": 7039,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Fatima",
+    "lname": "Mendez",
+    "user_name": "fmendez",
+    "email": "fmendez@red4g.net",
+    "agent": 27025,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Roxana",
+    "lname": "Fajardo",
+    "user_name": "rfajardo",
+    "email": "rmejia@red4g.net",
+    "agent": 7059,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Raul",
+    "lname": "Vega",
+    "user_name": "evega",
+    "email": "rvega@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Cecilia",
+    "lname": "Quintanilla",
+    "user_name": "cquintanilla",
+    "email": "cquintanilla@old.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Linneth",
+    "lname": "Rivas",
+    "user_name": "drivas",
+    "email": "drivas@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Melissa",
+    "lname": "Choto",
+    "user_name": "mchoto",
+    "email": "mchoto@red4g.net",
+    "agent": 7002,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Brenda",
+    "lname": "Garcia",
+    "user_name": "bgarcia",
+    "email": "bgarcia@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jacqueline",
+    "lname": "Martinez",
+    "user_name": "jmartinez",
+    "email": "jmartinez@delete.com",
+    "agent": 2,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Juan",
+    "lname": "Amaya",
+    "user_name": "jamaya",
+    "email": "jamaya@red4g.net",
+    "agent": 7030,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Ileana",
+    "lname": "Marroquin",
+    "user_name": "imarroquin",
+    "email": "imarroquin@red4g.net",
+    "agent": 17072409,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Luis",
+    "lname": "Vasquez",
+    "user_name": "lvasquez",
+    "email": "lvasquez@red4g.net",
+    "agent": 17072411,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Pedro",
+    "lname": "Murcia",
+    "user_name": "pmurcia",
+    "email": "pmurcia@red4g.net",
+    "agent": 12,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Marilyn",
+    "lname": "Campos",
+    "user_name": "mcampos17",
+    "email": "mcampos17@red4g.net",
+    "agent": 15082,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jocelyn",
+    "lname": "Rodriguez",
+    "user_name": "jrodriguez",
+    "email": "jmartinez@red4g.net",
+    "agent": 171204,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Brenda",
+    "lname": "Diaz",
+    "user_name": "bdiaz",
+    "email": "bdiaz@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Yessenia",
+    "lname": "Ruano",
+    "user_name": "yruano",
+    "email": "yesenia.ruano@novitechsv.com",
+    "agent": 1711211,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jenny",
+    "lname": "Ayala",
+    "user_name": "jayala",
+    "email": "jenny.ayala@novitechsv.com",
+    "agent": 1711212,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Bryan",
+    "lname": "Aguilar",
+    "user_name": "baguilar",
+    "email": "bryan.aguilar@novitechsv.com",
+    "agent": 1711213,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Diego",
+    "lname": "Chacon",
+    "user_name": "dchacon",
+    "email": "diego.chacon@novitechsv.com",
+    "agent": 1711214,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rocio",
+    "lname": "Lopez",
+    "user_name": "rlopez1",
+    "email": "rocio.lopez@novitechsv.com",
+    "agent": 1711215,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Sarai",
+    "lname": "Roman",
+    "user_name": "sroman",
+    "email": "sarai.roman@novitechsv.com",
+    "agent": 1711216,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Virginia",
+    "lname": "Campos",
+    "user_name": "vcampos",
+    "email": "vcampos@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Manuel",
+    "lname": "Aparicio",
+    "user_name": "maparicio",
+    "email": "maparicio@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Santos",
+    "lname": "Mancia",
+    "user_name": "smancia",
+    "email": "smancia@red4g.net",
+    "agent": 15040,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Katherine",
+    "lname": "Constancia",
+    "user_name": "kconstancia",
+    "email": "kconstancia@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Lissette",
+    "lname": "Garcia",
+    "user_name": "lgarcia",
+    "email": "lgarcia@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Steffany",
+    "lname": "Martinez",
+    "user_name": "smartinez1",
+    "email": "smartinez@red4g.net",
+    "agent": 16083,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Douglas",
+    "lname": "Siliezar",
+    "user_name": "dsiliezar",
+    "email": "dsiliezar@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Balmore",
+    "lname": "Martinez",
+    "user_name": "bmartinez",
+    "email": "bmartinez@red4g.naet",
+    "agent": 50999,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Samuel",
+    "lname": "Garcia",
+    "user_name": "sgarcia",
+    "email": "sgarcia@red4g.net",
+    "agent": 5066,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Marvelyn",
+    "lname": "Guillen",
+    "user_name": "mguillen",
+    "email": "mguillen@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Beatriz",
+    "lname": "Escobar",
+    "user_name": "bescobar17",
+    "email": "bescobar17@red4g.net",
+    "agent": 1708094,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Iris",
+    "lname": "Sanchez",
+    "user_name": "isanchez",
+    "email": "isanchez@red4g.net",
+    "agent": 1708095,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Mejia",
+    "user_name": "jmejia",
+    "email": "jmejia@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Samuel",
+    "lname": "Aviles",
+    "user_name": "saviles",
+    "email": "saviles@red4g.net",
+    "agent": 5047,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Ricardo",
+    "lname": "Murcia",
+    "user_name": "rmurcia",
+    "email": "rmurcia@zeres.com",
+    "agent": 18082301,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Emerson",
+    "lname": "Calderon",
+    "user_name": "ecalderon",
+    "email": "ecalderon@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jennifer",
+    "lname": "Heymann",
+    "user_name": "jheymann",
+    "email": "jheymann@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Kevin",
+    "lname": "Salinas",
+    "user_name": "ksalinas",
+    "email": "ksalinas@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Diego",
+    "lname": "Castaneda",
+    "user_name": "dcastaneda",
+    "email": "dcastaneda@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Leones",
+    "user_name": "cleones",
+    "email": "cleones@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Nery",
+    "lname": "Mata",
+    "user_name": "nmata",
+    "email": "nmata@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Calderon",
+    "user_name": "ccalderon",
+    "email": "ccalderon@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Dayanna",
+    "lname": "Lemus",
+    "user_name": "dlemus",
+    "email": "dlemus@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Aimeé",
+    "lname": "Barahona",
+    "user_name": "abarahona",
+    "email": "abarahona@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Romero",
+    "user_name": "jromero",
+    "email": "jromero@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Barbara",
+    "lname": "Tejada",
+    "user_name": "btejada",
+    "email": "btejada@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Steffany",
+    "lname": "Urrutia",
+    "user_name": "surrutia",
+    "email": "surrutia@zeres.com",
+    "agent": 18082313,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Marvin",
+    "lname": "Rivera",
+    "user_name": "mrivera17",
+    "email": "mrivera@novitech.com",
+    "agent": 17082313,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Adriana",
+    "lname": "Palma",
+    "user_name": "apalma",
+    "email": "apalma@novitech.com",
+    "agent": 17082314,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alexandra",
+    "lname": "Ayala",
+    "user_name": "aayala",
+    "email": "aayala@novitech.com",
+    "agent": 17082315,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Allan",
+    "lname": "Vasquez",
+    "user_name": "avasquez",
+    "email": "avasquez@novitech.com",
+    "agent": 17082316,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Doris",
+    "lname": "Gomez",
+    "user_name": "dgomez",
+    "email": "dgomez@novitech.com",
+    "agent": 17082317,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Elmer",
+    "lname": "Cordova",
+    "user_name": "ecordova",
+    "email": "ecordova@novitech.com",
+    "agent": 17082318,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Melissa",
+    "lname": "Gonzalez",
+    "user_name": "egonzalez",
+    "email": "egonzalez@novitech.com",
+    "agent": 17082319,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Ever",
+    "lname": "Figueroa",
+    "user_name": "efigueroa",
+    "email": "efigueroa@novitech.com",
+    "agent": 17082320,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Gerardo",
+    "lname": "Arevalo",
+    "user_name": "garevalo",
+    "email": "garevalo@novitech.com",
+    "agent": 17082321,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Guillermo",
+    "lname": "Aviles",
+    "user_name": "gaviles",
+    "email": "gaviles@novitech.com",
+    "agent": 17082322,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Hector",
+    "lname": "Berrios",
+    "user_name": "hberrios",
+    "email": "hberrios@novitech.com",
+    "agent": 17082323,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Henry",
+    "lname": "Rosales",
+    "user_name": "hrosales",
+    "email": "hrosales@novitech.com",
+    "agent": 17082324,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Mario",
+    "lname": "Gomez",
+    "user_name": "mgomez",
+    "email": "mgomez@novitech.com",
+    "agent": 17082325,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Nohemy",
+    "lname": "Baires",
+    "user_name": "nbaires",
+    "email": "nbaires@novitech.com",
+    "agent": 17082326,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rodrigo",
+    "lname": "Zaldana",
+    "user_name": "rzaldana",
+    "email": "rzaldana@novitech.com",
+    "agent": 17082327,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rosmery",
+    "lname": "Martinez",
+    "user_name": "rmartinez",
+    "email": "rmartinez@novitech.com",
+    "agent": 170823283,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Yazz",
+    "lname": "Mancia",
+    "user_name": "ymancia",
+    "email": "ymancia@novitech.com",
+    "agent": 17082329,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Bryan",
+    "lname": "Arce",
+    "user_name": "barce",
+    "email": "barce@red4g.net",
+    "agent": 15062,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Henry",
+    "lname": "Diaz",
+    "user_name": "hdiaz",
+    "email": "hdiaz@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Christopher",
+    "lname": "Giron",
+    "user_name": "cgiron",
+    "email": "cgiron@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Velasquez",
+    "user_name": "jvelasquez",
+    "email": "jvelasquez@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jesus",
+    "lname": "Reyes",
+    "user_name": "jreyes",
+    "email": "jreyes@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Roberto",
+    "lname": "Piche",
+    "user_name": "rpiche",
+    "email": "rpiche@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Stephanie",
+    "lname": "Mejia",
+    "user_name": "smejia20",
+    "email": "smejia@zeres.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Estrada",
+    "user_name": "oestrada",
+    "email": "oestrada@red4g.net",
+    "agent": 220331,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Ivan",
+    "lname": "Figueroa",
+    "user_name": "ifigueroa",
+    "email": "ifigueroa@novitech.com",
+    "agent": 918,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Sergio",
+    "lname": "Mejia",
+    "user_name": "smejia",
+    "email": "smejia@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Gerardo",
+    "lname": "Ventura",
+    "user_name": "gventura",
+    "email": "gventura@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Bibi",
+    "lname": "Ramirez",
+    "user_name": "bramirez",
+    "email": "bramirez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Dante",
+    "lname": "Vega",
+    "user_name": "dvega",
+    "email": "dvega@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Gabriel",
+    "lname": "Feliz",
+    "user_name": "gfeliz",
+    "email": "gfeliz@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Juan Carlos",
+    "lname": "Espinoza",
+    "user_name": "jespinoza",
+    "email": "jespinoza@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Raul",
+    "lname": "Reyes",
+    "user_name": "rhouston",
+    "email": "rhouston@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Wendy ",
+    "lname": "Araujo",
+    "user_name": "waraujo",
+    "email": "waraujo@example.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alfredo",
+    "lname": "Garcia",
+    "user_name": "agarcia",
+    "email": "agarcia@example.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rosa",
+    "lname": "Houston",
+    "user_name": "rosa.houston",
+    "email": "rhouston@example.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Laura",
+    "lname": "Ramirez",
+    "user_name": "laura.ramirez",
+    "email": "laura.ramirez@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Christian",
+    "lname": "Tobar",
+    "user_name": "christian.tobar",
+    "email": "christian.tobar@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Priscila",
+    "lname": "Ortez",
+    "user_name": "portez",
+    "email": "portez@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Guillermo",
+    "lname": "Portillo",
+    "user_name": "guillermo.portillo",
+    "email": "guillermo.portillo@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Rojas",
+    "user_name": "jrojas",
+    "email": "jasllani@hotmail.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Ulises",
+    "lname": "Arias",
+    "user_name": "uarias",
+    "email": "uarias@red4g.net",
+    "agent": 5152,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Arturo",
+    "lname": "Salgado",
+    "user_name": "asalgado",
+    "email": "asalgado@internal.red4g.net",
+    "agent": 9022,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Jorge",
+    "lname": "Cortez",
+    "user_name": "jcortez",
+    "email": "jcortez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alberto",
+    "lname": "Jerez",
+    "user_name": "ajerez",
+    "email": "ajerez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alfonso",
+    "lname": "Ortiz",
+    "user_name": "aortiz",
+    "email": "aortiz@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Margarita",
+    "lname": "Guardado",
+    "user_name": "mguardado",
+    "email": "mguardado@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rodrigo",
+    "lname": "Guzman",
+    "user_name": "rguzman",
+    "email": "rguzman@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "API",
+    "lname": "ADS",
+    "user_name": "apiads",
+    "email": "apiads@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Salvador",
+    "lname": "Lopez",
+    "user_name": "salopez",
+    "email": "slopez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Angel",
+    "lname": "Ramirez",
+    "user_name": "aramirez",
+    "email": "aramirez@red4g.net",
+    "agent": 20876,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Ruben",
+    "lname": "Troche",
+    "user_name": "rtroche",
+    "email": "rtroche@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Martha",
+    "lname": "Cabrera",
+    "user_name": "mcabrera",
+    "email": "mcabrera@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alberto",
+    "lname": "Zuniga",
+    "user_name": "azuniga",
+    "email": "azuniga@red4g.net",
+    "agent": 5092,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Rando",
+    "lname": "Guate",
+    "user_name": "rando",
+    "email": "rando@correo.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Cortez",
+    "user_name": "jocortez",
+    "email": "jocortez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Guillermo",
+    "lname": "Melendez",
+    "user_name": "gmelendez",
+    "email": "gmelendez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rony",
+    "lname": "Pinto",
+    "user_name": "rpinto",
+    "email": "rpinto@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Marcela",
+    "lname": "Pacheco",
+    "user_name": "mpacheco",
+    "email": "mpacheco@red4g.net",
+    "agent": 15005,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Evelyn",
+    "lname": "Hernandez",
+    "user_name": "ehernandez2017",
+    "email": "ehernandez@red4g.net",
+    "agent": 9898,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Corvera",
+    "user_name": "ccorvera",
+    "email": "ccorvera@red4g.net",
+    "agent": 5060,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Dina",
+    "lname": "Perez",
+    "user_name": "dperez",
+    "email": "dperez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Melanie",
+    "lname": "Campos",
+    "user_name": "lcampos",
+    "email": "mcampos@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Alvarado",
+    "user_name": "calvarado",
+    "email": "calvarado@red4g.net",
+    "agent": 75126,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Israel",
+    "lname": "Castillo",
+    "user_name": "icastillo",
+    "email": "icastillo@red4g.net",
+    "agent": 90723,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Claudia",
+    "lname": "Oliva",
+    "user_name": "coliva",
+    "email": "coliva@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Melvin",
+    "lname": "Peralta",
+    "user_name": "mperalta",
+    "email": "mperalta@red4g.net",
+    "agent": 92780,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Escobar",
+    "user_name": "jescobar",
+    "email": "jescobar@red4g.net",
+    "agent": 9021,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Oscar",
+    "lname": "Landaverde",
+    "user_name": "olandaverde",
+    "email": "olandaverde@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rafael",
+    "lname": "Avila",
+    "user_name": "ravila",
+    "email": "ravila@red4g.net",
+    "agent": 5112,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Lilian",
+    "lname": "Velasco",
+    "user_name": "lvelasco",
+    "email": "lvelasco@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Ingrid",
+    "lname": "Monje",
+    "user_name": "imonje",
+    "email": "imonje@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alonso",
+    "lname": "Ramos",
+    "user_name": "aramos",
+    "email": "aramos@red4g.net",
+    "agent": 77449,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Claudia",
+    "lname": "Quintanilla",
+    "user_name": "cquintanilla2017",
+    "email": "cquintanilla@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rene",
+    "lname": "Lopez",
+    "user_name": "rlopez",
+    "email": "rlopez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Palma",
+    "user_name": "jpalma",
+    "email": "jpalma@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Aleida",
+    "lname": "Gamez",
+    "user_name": "agamez",
+    "email": "agamez@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Irma",
+    "lname": "Flores",
+    "user_name": "iflores",
+    "email": "iflores@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Francisco ",
+    "lname": "Moran",
+    "user_name": "fmoran",
+    "email": "fmoran@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Alexander",
+    "lname": "Santamaria",
+    "user_name": "asantamaria",
+    "email": "asantamaria@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "David",
+    "lname": "Rodriguez",
+    "user_name": "drodriguez",
+    "email": "drodriguez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Diego",
+    "lname": "Penate",
+    "user_name": "dpenate",
+    "email": "dpenate@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Luis",
+    "lname": "Moreno",
+    "user_name": "lmoreno",
+    "email": "lmoreno@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Edgar",
+    "lname": "Quintanilla",
+    "user_name": "equintanilla",
+    "email": "equintanilla@red4g.net",
+    "agent": 5034,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Usuario",
+    "lname": "Repetido",
+    "user_name": "repetido1",
+    "email": "jhdfduy@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Angel",
+    "lname": "Fonseca",
+    "user_name": "afonseca",
+    "email": "afonseca@red4g.net",
+    "agent": 180404,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Moises",
+    "lname": "Talpa",
+    "user_name": "mtalpa",
+    "email": "mtalpa@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Houston Alonso",
+    "lname": "Ramos Eliminado",
+    "user_name": "houston",
+    "email": "houston@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jesus",
+    "lname": "Carrillo",
+    "user_name": "jcarrillo",
+    "email": "tec_jesus@redg.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Dante",
+    "lname": "Juarez",
+    "user_name": "djaurez",
+    "email": "tec_dante@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Juan",
+    "lname": "Polanco",
+    "user_name": "jpolanco",
+    "email": "tec_juan@red4g.net",
+    "agent": 330181,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Ronald",
+    "lname": "Ortega",
+    "user_name": "rortega",
+    "email": "tec_ronald@red4g.net",
+    "agent": 751261,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Manuel",
+    "lname": "Fernandez",
+    "user_name": "mfernandez",
+    "email": "tec_manuel@red4g.net",
+    "agent": 33018,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Christian",
+    "lname": "Quintero",
+    "user_name": "cquintero",
+    "email": "cquintero@red4g.net",
+    "agent": 33021,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Disabled",
+    "lname": "Disabled",
+    "user_name": "angel",
+    "email": "tangel@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Pamela",
+    "lname": "Azucar",
+    "user_name": "pamela.azucar",
+    "email": "pamela.azucar@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Karla",
+    "lname": "Guerra",
+    "user_name": "karla.guerra",
+    "email": "karla.guerra@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Dora",
+    "lname": "Estrada",
+    "user_name": "dora.estrada",
+    "email": "dora.estrada@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Adriana",
+    "lname": "Perez",
+    "user_name": "adriana.perez",
+    "email": "adriana.perez@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Orellana",
+    "user_name": "jose.orellana",
+    "email": "jose.orellana@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Twilio",
+    "lname": "API",
+    "user_name": "twilio",
+    "email": "twilio@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Karen",
+    "lname": "Sanchez",
+    "user_name": "karen.sanchez",
+    "email": "karen.sanchez@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Rosa",
+    "user_name": "jose.rosa",
+    "email": "jose.rosa@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Ramos",
+    "user_name": "carlos.ramos",
+    "email": "office@compusal.us",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Fabiola",
+    "lname": "Ventura",
+    "user_name": "fventura",
+    "email": "fventura@red4g.net",
+    "agent": 9025,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "James",
+    "lname": "Nicholls",
+    "user_name": "jnicholls",
+    "email": "jnicholls@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Ramos",
+    "user_name": "cramos",
+    "email": "cramos@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Prentice",
+    "lname": "Larkin",
+    "user_name": "plarkin",
+    "email": "prentice.larkin@gmail.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Ryan",
+    "lname": "Zellar",
+    "user_name": "rzellar",
+    "email": "zellars.ryan@gmail.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Maximo",
+    "lname": "Zayas",
+    "user_name": "mzayas",
+    "email": "mzayas@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Raul",
+    "lname": "Arango",
+    "user_name": "rarango",
+    "email": "rarango@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Gerald",
+    "lname": "Melara",
+    "user_name": "gerald.melara",
+    "email": "gerald.melara@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Maria",
+    "lname": "Lopez",
+    "user_name": "maria.lopez",
+    "email": "maria.lopez@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Siri",
+    "user_name": "jsiri",
+    "email": "jsiri@red4g.net",
+    "agent": 9019,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Adriana",
+    "lname": "Chavez",
+    "user_name": "adriana.chavez",
+    "email": "adriana.chavez@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Palacios",
+    "user_name": "jpalacios",
+    "email": "jpalacios@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Josue",
+    "lname": "Flores",
+    "user_name": "jflores",
+    "email": "jflores@red4g.net",
+    "agent": 5170,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Rogelio",
+    "lname": "Coss",
+    "user_name": "rcoss",
+    "email": "rcoss@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Abelino",
+    "lname": "Luna",
+    "user_name": "aluna",
+    "email": "aluna@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Rodrigo",
+    "lname": "Alvarenga",
+    "user_name": "ralvarenga",
+    "email": "ralvarenga@red4g.net",
+    "agent": 9020,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Jorge",
+    "lname": "Robert",
+    "user_name": "jrobert",
+    "email": "jrobert@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Jose",
+    "lname": "Orellana",
+    "user_name": "jorellana",
+    "email": "jorellana@red4g.net",
+    "agent": 7095,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Juan",
+    "lname": "Zelaya",
+    "user_name": "jzelaya1",
+    "email": "jzelaya1@red4g.net",
+    "agent": 27577,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Wilson",
+    "lname": "Lima",
+    "user_name": "wlima",
+    "email": "wlima@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Yenci",
+    "lname": "Guzman",
+    "user_name": "yenci.guzman",
+    "email": "yguzman@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Eduardo",
+    "lname": "Cordova",
+    "user_name": "eduardocordova",
+    "email": "ecordova@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Vigilancia",
+    "lname": "Red5G",
+    "user_name": "vigilancia",
+    "email": "vigilancia@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Juan",
+    "lname": "Sala",
+    "user_name": "jsala",
+    "email": "jsala@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Isai",
+    "lname": "Marroquin",
+    "user_name": "isai.marroquin",
+    "email": "isai.marroquin@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Eddy",
+    "lname": "Barrera",
+    "user_name": "ebarrera",
+    "email": "ebarrera@red4g.net",
+    "agent": 5104,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Amilcar",
+    "lname": "Benitez",
+    "user_name": "abenitez",
+    "email": "abenitez@red4g.net",
+    "agent": 5029,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Victor",
+    "lname": "Ojeda",
+    "user_name": "vojeda",
+    "email": "nchsllc01@gmail.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Julio",
+    "lname": "Salazar",
+    "user_name": "jsalazar",
+    "email": "jsalazar@red4g.net",
+    "agent": 5125,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Fatima",
+    "lname": "Cornejo",
+    "user_name": "fcornejo",
+    "email": "fcornejo@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Nicol",
+    "lname": "Salguero",
+    "user_name": "nsalguero",
+    "email": "nsalguero@internal.red4.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Moises",
+    "lname": "Alvarez",
+    "user_name": "malvarez",
+    "email": "malvarez@internal.red4g.net",
+    "agent": 6095,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Jairo",
+    "lname": "Lopez",
+    "user_name": "jlopez",
+    "email": "jlopez@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Ruth ",
+    "lname": "Villeda",
+    "user_name": "rvilleda",
+    "email": "rvilleda@internal.red4g.net",
+    "agent": 5143,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Fernando",
+    "lname": "Rivas",
+    "user_name": "frivas",
+    "email": "frivas@internal.red4g.net",
+    "agent": 5158,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Adriana",
+    "lname": "Santeliz",
+    "user_name": "asanteliz",
+    "email": "asanteliz@internal.red4g.net",
+    "agent": 5193,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Raisa",
+    "lname": "Nolasco",
+    "user_name": "rnolasco",
+    "email": "rnolasco@red4g.net",
+    "agent": 5010,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Xiomara",
+    "lname": "Moran",
+    "user_name": "xiomara.moran",
+    "email": "xiomara.moran@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Felix",
+    "lname": "Escobar",
+    "user_name": "fescobar19",
+    "email": "alexbblanco@gmail.com",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Melvin ",
+    "lname": "Velasquez",
+    "user_name": "mvelasquez",
+    "email": "mvelasquez@red4g.net",
+    "agent": 9010,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Christian",
+    "lname": "Alas",
+    "user_name": "calas",
+    "email": "calas@red4g.net",
+    "agent": 9012,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Laura",
+    "lname": "Ramirez",
+    "user_name": "lramirez",
+    "email": "lramirez@red4g.net",
+    "agent": 9011,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Elizabeth",
+    "lname": "Carballo",
+    "user_name": "ecarballo",
+    "email": "ecarballo@red4g.net",
+    "agent": 9013,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Carlos",
+    "lname": "Lemus",
+    "user_name": "clemus",
+    "email": "clemus@red4g.net",
+    "agent": 9015,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Marcia",
+    "lname": "Rojas",
+    "user_name": "mrojas",
+    "email": "mrojas@red4g.net",
+    "agent": 9016,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Fabiola ",
+    "lname": "Lacayo",
+    "user_name": "flacayo",
+    "email": "flacayo@red4g.net",
+    "agent": 9014,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Leonardo",
+    "lname": "Lopez",
+    "user_name": "leonardo.lopez",
+    "email": "leonardo.lopez@red4g.net",
+    "agent": 9017,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Alicia",
+    "lname": "Mejia",
+    "user_name": "amejia",
+    "email": "amejia@red4g.net",
+    "agent": 9018,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Josue",
+    "lname": "Coreas",
+    "user_name": "jcoreas",
+    "email": "jcoreas@red4g.net",
+    "agent": 9023,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Herson",
+    "lname": "Castillo",
+    "user_name": "hcastillo",
+    "email": "ecastillo@red4g.net",
+    "agent": 9024,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Tania",
+    "lname": "Rauda",
+    "user_name": "trauda",
+    "email": "trauda@red4g.net",
+    "agent": 9026,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Kevin",
+    "lname": "Romero",
+    "user_name": "kromero1",
+    "email": "kromero@red4g.net",
+    "agent": 9027,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Ana",
+    "lname": "Rodriguez",
+    "user_name": "arodriguez",
+    "email": "arodriguez@red4g.net",
+    "agent": 9028,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "William",
+    "lname": "Castillo",
+    "user_name": "wcastillo",
+    "email": "wcastillo@red4g.net",
+    "agent": 9029,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Rosa",
+    "lname": "Alvanez",
+    "user_name": "ralvanez",
+    "email": "ralvanez@red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Activo"
+  },
+  {
+    "fname": "Abigail",
+    "lname": "Avila",
+    "user_name": "aavila",
+    "email": "aavila@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  },
+  {
+    "fname": "Rebeca",
+    "lname": "Beltran",
+    "user_name": "rbeltran",
+    "email": "rbeltran@internal.red4g.net",
+    "agent": null,
+    "erp_code": null,
+    "status": "Inactivo"
+  }
+]

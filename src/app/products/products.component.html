@@ -1,0 +1,339 @@
+<ngx-smart-modal
+  #createModal
+  identifier="createModal"
+  [customClass]="'create-modal nsm-dialog-animation-btt'"
+  [dismissable]="false"
+>
+  <form (ngSubmit)="create()" [formGroup]="create_form">
+    <div
+      class="card-body"
+      style="
+  padding-bottom: 0px;
+"
+    >
+      <h5 class="title">Nuevo Producto</h5>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <img
+              *ngIf="temporal_image"
+              [src]="imageSrc"
+              alt=""
+              style="width: 40%"
+            />
+            <label class="img-side" for="input3">Imagen</label>
+            <input
+              type="file"
+              name="input3"
+              id="input3"
+              (change)="changeFile($event)"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nombre"
+              formControlName="name"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Categoria</label>
+            <select class="form-control" formControlName="category">
+              <option *ngFor="let item of category_list" [value]="item._id">{{
+                item.name
+              }}</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Precio</label>
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Precio"
+              formControlName="price"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Cantidad</label>
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Cantidad"
+              formControlName="quantity"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label>Descripcion</label>
+            <textarea
+              formControlName="description"
+              rows="4"
+              cols="80"
+              class="form-control"
+              placeholder="Here can be your description"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <button
+        type="submit"
+        [disabled]="!create_form.valid"
+        class="btn btn-info btn-round accept-button"
+      >
+        Aceptar
+      </button>
+    </div>
+  </form>
+</ngx-smart-modal>
+<ngx-smart-modal
+  #editModal
+  identifier="editModal"
+  [customClass]="'create-modal nsm-dialog-animation-btt'"
+  [dismissable]="false"
+>
+  <form (ngSubmit)="update()" [formGroup]="update_form">
+    <div
+      class="card-body"
+      style="
+  padding-bottom: 0px;
+"
+    >
+      <h5 class="title">Editar Producto</h5>
+    </div>
+    <div class="card-body">
+      <!-- <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <img
+              *ngIf="temporal_image"
+              [src]="imageSrc"
+              alt=""
+              style="width: 40%"
+            />
+            <label class="img-side" for="input3">Imagen</label>
+            <input
+              type="file"
+              name="input3"
+              id="input3"
+              (change)="changeFile($event)"
+            />
+          </div>
+        </div>
+      </div> -->
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Nombre"
+              formControlName="name"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Categoria</label>
+            <select class="form-control" formControlName="category">
+              <option *ngFor="let item of category_list" [value]="item._id">{{
+                item.name
+              }}</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Precio</label>
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Precio"
+              formControlName="price"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 pr-1">
+          <div class="form-group">
+            <label>Cantidad</label>
+            <input
+              type="number"
+              class="form-control"
+              placeholder="Cantidad"
+              formControlName="quantity"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label>Descripcion</label>
+            <textarea
+              formControlName="description"
+              rows="4"
+              cols="80"
+              class="form-control"
+              placeholder="Here can be your description"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <button
+        type="submit"
+        [disabled]="!update_form"
+        class="btn btn-info btn-round accept-button"
+      >
+        Aceptar
+      </button>
+    </div>
+  </form>
+</ngx-smart-modal>
+<div class="panel-header">
+  <div class="header text-center animated pulse">
+    <h2 class="title">Productos</h2>
+    <p class="category">Catalogo de productos disponibles</p>
+    <p>
+      <button
+        (click)="ngxSmartModalService.getModal('createModal').open()"
+        class="btn btn-primary btn-round"
+      >
+        Nuevo
+      </button>
+    </p>
+  </div>
+</div>
+<div class="main-content">
+  <div class="row">
+    <div class="col-md-12" *ngIf="product_list.length > 0">
+      <div class="card animated fadeInUp">
+        <div class="card-header">
+          <h4 class="card-title ">Listado de productos</h4>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table">
+              <thead class=" text-primary">
+                <th></th>
+                <th>
+                  Nombre
+                </th>
+                <th>
+                  Categoria
+                </th>
+                <th>
+                  Precio
+                </th>
+                <th>
+                  Descripccion
+                </th>
+                <th>
+                  Opciones
+                </th>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of product_list">
+                  <td style="text-align: center">
+                    <a
+                      target="_blank"
+                      [href]="getImage(item.image_path)"
+                      title="Ver imagen"
+                    >
+                      <img
+                        [src]="getImage(item.image_path)"
+                        alt="{{ item.name }}"
+                        width="60"
+                      />
+                    </a>
+                  </td>
+                  <td>
+                    {{ item.name }}
+                  </td>
+                  <td>
+                    {{ item.category.name }}
+                  </td>
+                  <td>
+                    {{ item.price | currency }}
+                  </td>
+                  <td>
+                    {{ item.description }}
+                  </td>
+                  <td class="td-actions ">
+                    <button
+                      (click)="editar(item)"
+                      type="button"
+                      rel="tooltip"
+                      title=""
+                      class="btn btn-info btn-round btn-icon btn-icon-mini btn-neutral"
+                      data-original-title="Edit Task"
+                    >
+                      <i class="now-ui-icons ui-2_settings-90"></i>
+                    </button>
+                    <button
+                      (click)="delete(item._id)"
+                      type="button"
+                      rel="tooltip"
+                      title=""
+                      class="btn btn-danger btn-round btn-icon btn-icon-mini btn-neutral"
+                      data-original-title="Remove"
+                    >
+                      <i class="now-ui-icons ui-1_simple-remove"></i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12" *ngIf="product_list.length == 0">
+      <div class="card animated fadeInUp">
+        <div class="card-header">
+          <h4 class="card-title ">No se encontraron Productos</h4>
+        </div>
+        <div class="card-body">
+          <lottie-animation-view
+            [options]="lottieConfig"
+            [width]="300"
+            [height]="250"
+          >
+          </lottie-animation-view>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

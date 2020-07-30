@@ -1,0 +1,87 @@
+@mixin for-size($size) {
+    @if $size == phone-only {
+        @media (max-width: 599px) { @content; }
+    } @else if $size == tablet-portrait-up {
+        @media (min-width: 600px) { @content; }
+    } @else if $size == tablet-landscape-up {
+        @media (min-width: 900px) { @content; }
+    } @else if $size == desktop-up {
+        @media (min-width: 1200px) { @content; }
+    } @else if $size == big-desktop-up {
+        @media (min-width: 1800px) { @content; }
+    }
+}
+
+.container{
+    min-height: 100vh;
+    height: auto;
+    min-width: 100%;
+    width: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    &-left{
+        &-img{
+            background-image: url("/../../assets/img/login-bg.png");
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            flex: 50%;
+        }
+    }
+    &-right {
+        flex: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        &-image{
+            flex: 45%;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: center;
+            &-logo{
+                @include for-size(desktop-up) {
+                    min-width: 80%;
+                    max-width: 80%;
+                    min-height: 25%;
+                    max-height: 25%;
+                }
+                @include for-size(big-desktop-up){
+                    min-width: 80%;
+                    max-width: 80%;
+                }
+                margin-bottom: 5.0%;
+            }
+        }
+        &-form{
+            flex: 55%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            .inputs{
+                color: black !important;
+                margin-top: 5.0%;
+                margin-bottom: 5.0%;
+                @include for-size(big-desktop-up){
+                    min-width: 190%;
+                    min-height: 9%;
+                }
+                min-width: 150%;
+                max-width: 250%;
+                width: auto;
+                border: 0.8px solid #9A9A9A;
+            }
+            .inputs:focus{
+                color: black !important;
+                border: 0.8px solid #f96332;
+            }
+            .submit{
+                background-color: #f96332;
+            }
+        }
+    }
+}

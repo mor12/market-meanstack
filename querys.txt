@@ -1,0 +1,22 @@
+db.compras.aggregate([
+            {
+              $group:
+                {
+                  _id: "$employee", 
+                  totalAmount: { $sum: "$total"},
+                  count: { $sum: 1 },
+                   max: { $max :  }
+                }
+            }
+          ])
+
+
+
+db.compras.aggregate([
+    {
+        $group: {
+            _id: null,
+            maxQuantity: {$max: { $sum: "$total"}},
+        }
+    }
+])
