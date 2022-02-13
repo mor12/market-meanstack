@@ -27,7 +27,7 @@
     "@angular/router": "7.2.2",
     "@auth0/angular-jwt": "^2.1.0",
     "@ng-bootstrap/ng-bootstrap": "4.0.2",
-    "ajv": "6.7.0",
+    "ajv": "6.12.3",
     "ajv-keywords": "3.3.0",
     "angular2-qrcode": "^2.0.1",
     "animate.css": "^3.7.0",
