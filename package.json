@@ -48,7 +48,7 @@
     "jquery": "3.3.1",
     "json2xls": "^0.1.2",
     "jw-bootstrap-switch-ng2": "2.0.4",
-    "mongoose": "^5.4.14",
+    "mongoose": "^5.7.5",
     "mongoose-datatables": "^3.2.0",
     "ng-lottie": "^0.3.2",
     "ng-pick-datetime": "^7.0.0",
