@@ -38,7 +38,7 @@
     "classlist.js": "1.1.20150312",
     "concurrently": "^4.1.0",
     "connect-multiparty": "^2.2.0",
-    "copy-webpack-plugin": "4.6.0",
+    "copy-webpack-plugin": "11.0.0",
     "core-js": "2.6.3",
     "express": "^4.16.4",
     "express-jwt": "^5.3.1",
@@ -73,7 +73,7 @@
     "zone.js": "^0.8.29"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.12.3",
+    "@angular-devkit/build-angular": "~15.0.4",
     "@angular/cli": "7.2.3",
     "@angular/compiler-cli": "^7.2.8",
     "@angular/language-service": "7.2.2",
